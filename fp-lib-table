@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Flying_Camp_Design)(type KiCad)(uri ${KIPRJMOD}/lib/github.com/FlyingCampDesign/fcd-kicad-lib/Flying_Camp_Design.pretty)(options "")(descr ""))
+)
