@@ -32,12 +32,12 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_FEATHER-HEADER-12POS-PTH
+# Flying_Camp_Design_Adafruit_Feather_socket_header_right_pth
 #
-DEF Flying_Camp_Design_FEATHER-HEADER-12POS-PTH J 0 40 N Y 1 F N
+DEF Flying_Camp_Design_Adafruit_Feather_socket_header_right_pth J 0 40 N Y 1 F N
 F0 "J" 0 700 50 H V L CNN
-F1 "Flying_Camp_Design_FEATHER-HEADER-12POS-PTH" 0 -600 50 H V L CNN
-F2 "Flying_Camp_Design:FEATHER-HEADER-12POS-PTH" 0 -700 50 H I C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_socket_header_right_pth" 0 -600 50 H V L CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" 0 -700 50 H I C CNN
 F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -800 50 H I C CNN
 DRAW
 X D2 D2 100 -300 100 L 50 50 0 0 P
@@ -55,16 +55,13 @@ X VUSB VUSB 100 400 100 L 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_FEATHER-HEADER-16POS-PTH
+# Flying_Camp_Design_Adafruit_Feather_socket_header_left_pth
 #
-DEF Flying_Camp_Design_FEATHER-HEADER-16POS-PTH J 0 40 N Y 1 F N
+DEF Flying_Camp_Design_Adafruit_Feather_socket_header_left_pth J 0 40 N Y 1 F N
 F0 "J" 0 900 50 H V L CNN
-F1 "Flying_Camp_Design_FEATHER-HEADER-16POS-PTH" 0 -800 50 H V L CNN
-F2 "Flying_Camp_Design:FEATHER-HEADER-16POS-PTH" 0 -900 50 H I C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_socket_header_left_pth" 0 -800 50 H V L CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" 0 -900 50 H I C CNN
 F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -1000 50 H I C CNN
-$FPLIST
- FEATHER-HEADER-16POS*
-$ENDFPLIST
 DRAW
 X 3V3 3V3 -100 700 100 R 50 50 0 0 w
 X A0 A0 -100 400 100 R 50 50 0 0 P
@@ -85,12 +82,12 @@ X ~RST ~RST -100 800 100 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_FEATHER-LOGO
+# Flying_Camp_Design_Adafruit_Feather_logo
 #
-DEF Flying_Camp_Design_FEATHER-LOGO LOGO 0 40 Y Y 1 F N
+DEF Flying_Camp_Design_Adafruit_Feather_logo LOGO 0 40 Y Y 1 F N
 F0 "LOGO" 0 0 60 H I C CNN
-F1 "Flying_Camp_Design_FEATHER-LOGO" 0 0 60 H I C CNN
-F2 "Flying_Camp_Design:FEATHER-LOGO" 0 0 200 H I C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_logo" 0 0 60 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_logo" 0 0 200 H I C CNN
 F3 "" 0 0 200 H I C CNN
 DRAW
 P 8 0 0 1 25 -7 27 -7 29 -6 31 -6 31 4 21 4 21 -8 25 -7 F
@@ -114,24 +111,24 @@ P 261 0 0 1 206 106 208 109 209 111 208 111 207 110 204 109 201 107 198 103 194 
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_FEATHER-MODULE
+# Flying_Camp_Design_Adafruit_Feather_socket_empty
 #
-DEF Flying_Camp_Design_FEATHER-MODULE A 0 40 N Y 1 F N
+DEF Flying_Camp_Design_Adafruit_Feather_socket_empty A 0 40 N Y 1 F N
 F0 "A" 0 1400 50 H V L CNN
-F1 "Flying_Camp_Design_FEATHER-MODULE" 0 -900 50 H V L CNN
-F2 "Flying_Camp_Design:FEATHER-MODULE" 0 -1000 50 H I C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_socket_empty" 0 -900 50 H V L CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_empty" 0 -1000 50 H I C CNN
 F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -1100 50 H I C CNN
 DRAW
 S -400 1300 400 -800 0 1 0 f
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_FEATHER-MOUNTING-HOLES
+# Flying_Camp_Design_Adafruit_Feather_socket_mounting_holes
 #
-DEF Flying_Camp_Design_FEATHER-MOUNTING-HOLES MH 0 40 N Y 1 F N
+DEF Flying_Camp_Design_Adafruit_Feather_socket_mounting_holes MH 0 40 N Y 1 F N
 F0 "MH" 0 100 50 H I C CNN
-F1 "Flying_Camp_Design_FEATHER-MOUNTING-HOLES" 0 -200 50 H I C CNN
-F2 "Flying_Camp_Design:FEATHER-MOUNTING-HOLES" 0 -300 50 H I C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_socket_mounting_holes" 0 -200 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" 0 -300 50 H I C CNN
 F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -400 50 H I C CNN
 DRAW
 X MH1 MH1 100 0 100 L 50 50 0 0 P
@@ -139,11 +136,11 @@ X MH2 MH2 100 -100 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_FIDUCIAL
+# Flying_Camp_Design_Fiducial_1mm_Mask2mm
 #
-DEF Flying_Camp_Design_FIDUCIAL FID 0 20 Y Y 1 F N
+DEF Flying_Camp_Design_Fiducial_1mm_Mask2mm FID 0 20 Y Y 1 F N
 F0 "FID" 0 200 50 H V C CNN
-F1 "Flying_Camp_Design_FIDUCIAL" 0 125 50 H V C CNN
+F1 "Flying_Camp_Design_Fiducial_1mm_Mask2mm" 0 125 50 H V C CNN
 F2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" 0 -100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -278,12 +275,12 @@ X A 2 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_MIKROBUS-HEADER-LEFT-PTH
+# Flying_Camp_Design_mikroBUS_socket_header_left_pth
 #
-DEF Flying_Camp_Design_MIKROBUS-HEADER-LEFT-PTH J 0 40 N Y 1 F N
+DEF Flying_Camp_Design_mikroBUS_socket_header_left_pth J 0 40 N Y 1 F N
 F0 "J" 0 400 50 H V L CNN
-F1 "Flying_Camp_Design_MIKROBUS-HEADER-LEFT-PTH" 0 -500 50 H V L CNN
-F2 "Flying_Camp_Design:MIKROBUS-HEADER-LEFT-PTH" 0 -600 50 H I C CNN
+F1 "Flying_Camp_Design_mikroBUS_socket_header_left_pth" 0 -500 50 H V L CNN
+F2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" 0 -600 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 X +3.3V +3.3V -100 -300 100 R 50 50 0 0 W
@@ -297,12 +294,12 @@ X SCK SCK -100 0 100 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_MIKROBUS-HEADER-RIGHT-PTH
+# Flying_Camp_Design_mikroBUS_socket_header_right_pth
 #
-DEF Flying_Camp_Design_MIKROBUS-HEADER-RIGHT-PTH J 0 40 N Y 1 F N
+DEF Flying_Camp_Design_mikroBUS_socket_header_right_pth J 0 40 N Y 1 F N
 F0 "J" 0 400 50 H V L CNN
-F1 "Flying_Camp_Design_MIKROBUS-HEADER-RIGHT-PTH" 0 -500 50 H V L CNN
-F2 "Flying_Camp_Design:MIKROBUS-HEADER-RIGHT-PTH" 0 -600 50 H I C CNN
+F1 "Flying_Camp_Design_mikroBUS_socket_header_right_pth" 0 -500 50 H V L CNN
+F2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" 0 -600 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
 X +5V +5V 100 -300 100 L 50 50 0 0 W
@@ -316,23 +313,23 @@ X TX TX 100 0 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_MIKROBUS-MODULE
+# Flying_Camp_Design_mikroBUS_socket_empty
 #
-DEF Flying_Camp_Design_MIKROBUS-MODULE A 0 40 Y Y 1 F N
+DEF Flying_Camp_Design_mikroBUS_socket_empty A 0 40 Y Y 1 F N
 F0 "A" 0 900 50 H V L CNN
-F1 "Flying_Camp_Design_MIKROBUS-MODULE" 0 -500 50 H V L CNN
-F2 "Flying_Camp_Design:MIKROBUS-MODULE" 0 -600 50 H I C CNN
+F1 "Flying_Camp_Design_mikroBUS_socket_empty" 0 -500 50 H V L CNN
+F2 "Flying_Camp_Design:mikroBUS_socket_empty" 0 -600 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -400 -400 400 800 0 1 0 f
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_MIKROBUS_LOGO
+# Flying_Camp_Design_mikroBUS_logo
 #
-DEF Flying_Camp_Design_MIKROBUS_LOGO LOGO 0 40 Y Y 1 F N
+DEF Flying_Camp_Design_mikroBUS_logo LOGO 0 40 Y Y 1 F N
 F0 "LOGO" 0 -50 60 H I C CNN
-F1 "Flying_Camp_Design_MIKROBUS_LOGO" 0 50 60 H I C CNN
+F1 "Flying_Camp_Design_mikroBUS_logo" 0 50 60 H I C CNN
 F2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

@@ -380,14 +380,14 @@
     )
   )
 
-  (module Flying_Camp_Design:FEATHER-MODULE (layer F.Cu) (tedit 5E401D87) (tstamp 5E43729C)
+  (module Flying_Camp_Design:Adafruit_Feather_socket_empty (layer F.Cu) (tedit 5E401D87) (tstamp 5E43729C)
     (at 171.45 100.33)
     (descr "Adafruit Feather plug-in module")
     (path /5E3B7CD9)
     (fp_text reference A1 (at 0 0 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FEATHER-MODULE (at 0 0 unlocked) (layer F.Fab) hide
+    (fp_text value Adafruit_Feather_socket_empty (at 0 0 unlocked) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 0) (end 2.54 0) (layer Dwgs.User) (width 0.1))
@@ -452,20 +452,20 @@
       (net 1 GND))
     (pad 5 smd rect (at 0 -1.425 270) (size 1.7 0.55) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model :Flying_Camp_Design:KMR421GULCLFS.STEP
+    (model :Flying_Camp_Design:KMR421GULCLFS.step
       (offset (xyz 0 0 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
     )
   )
 
-  (module Flying_Camp_Design:MIKROBUS-MODULE (layer F.Cu) (tedit 5E401D64) (tstamp 5E411552)
+  (module Flying_Camp_Design:mikroBUS_socket_empty (layer F.Cu) (tedit 5E401D64) (tstamp 5E411552)
     (at 186.69 128.27 90)
     (path /5E3C82C2)
     (fp_text reference A2 (at 0 0 90 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIKROBUS-MODULE (at 0 0 90 unlocked) (layer F.Fab) hide
+    (fp_text value mikroBUS_socket_empty (at 0 0 90 unlocked) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user L (at -10.16 -41.91 90 unlocked) (layer F.Fab)
@@ -537,7 +537,7 @@
       (net 19 "Net-(R1-Pad2)"))
     (pad 5 smd rect (at 0 -1.425 270) (size 1.7 0.55) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model :Flying_Camp_Design:KMR421GULCLFS.STEP
+    (model :Flying_Camp_Design:KMR421GULCLFS.step
       (offset (xyz 0 0 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -580,14 +580,14 @@
     )
   )
 
-  (module Flying_Camp_Design:FEATHER-LOGO (layer F.Cu) (tedit 5E401542) (tstamp 5E443508)
+  (module Flying_Camp_Design:Adafruit_Feather_logo (layer F.Cu) (tedit 5E401542) (tstamp 5E443508)
     (at 156.21 97.155 90)
     (path /5E42FCDA)
     (attr virtual)
     (fp_text reference LOGO3 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value FEATHER-LOGO (at 0.75 0 90) (layer F.SilkS) hide
+    (fp_text value Adafruit_Feather_logo (at 0.75 0 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -0.536089 -1.443573) (xy -0.519128 -1.420104) (xy -0.512014 -1.370541) (xy -0.505445 -1.291166)
@@ -1022,7 +1022,7 @@
     (fp_text reference FID3 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FIDUCIAL (at 0 2) (layer F.Fab) hide
+    (fp_text value Fiducial_1mm_Mask2mm (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
@@ -1043,7 +1043,7 @@
     (fp_text reference FID2 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FIDUCIAL (at 0 2) (layer F.Fab) hide
+    (fp_text value Fiducial_1mm_Mask2mm (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
@@ -1064,7 +1064,7 @@
     (fp_text reference FID1 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FIDUCIAL (at 0 2) (layer F.Fab) hide
+    (fp_text value Fiducial_1mm_Mask2mm (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
@@ -1084,7 +1084,7 @@
     (fp_text reference LOGO1 (at 0 -12.7 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIKROBUS_LOGO (at 0.75 -12.7 90) (layer F.Fab) hide
+    (fp_text value mikroBUS_logo (at 0.75 -12.7 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 0) (end 2.54 0) (layer Dwgs.User) (width 0.1))
@@ -1359,7 +1359,7 @@
     )
   )
 
-  (module Flying_Camp_Design:FEATHER-HEADER-16POS-PTH (layer F.Cu) (tedit 5E401DB4) (tstamp 5E3C681D)
+  (module Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth (layer F.Cu) (tedit 5E401DB4) (tstamp 5E3C681D)
     (at 171.45 100.33 90)
     (descr "Through hole straight socket strip, 1x16, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x16 2.54mm single row")
@@ -1367,7 +1367,7 @@
     (fp_text reference J1 (at -12.7 -19.05 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FEATHER-HEADER-16POS-PTH (at -10.16 21.82 90 unlocked) (layer F.Fab) hide
+    (fp_text value Adafruit_Feather_socket_header_left_pth (at -10.16 21.82 90 unlocked) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -11.49 -20.38) (end -11.49 -17.78) (layer B.SilkS) (width 0.12))
@@ -1521,14 +1521,14 @@
     (pad 3V3 thru_hole oval (at -10.16 -16.51 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 +3V3))
     (pad ~RST thru_hole rect (at -10.16 -19.05 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-    (model :Flying_Camp_Design:FEATHER-HEADER-16POS-PTH.wrl
+    (model :Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth.wrl
       (offset (xyz -10.16 19.05 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Flying_Camp_Design:FEATHER-HEADER-12POS-PTH (layer F.Cu) (tedit 5E401DC1) (tstamp 5E3C684C)
+  (module Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth (layer F.Cu) (tedit 5E401DC1) (tstamp 5E3C684C)
     (at 171.45 100.33 90)
     (descr "Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x12 2.54mm single row")
@@ -1536,7 +1536,7 @@
     (fp_text reference J2 (at 10.16 -11.66 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FEATHER-HEADER-12POS-PTH (at 10.16 21.82 90 unlocked) (layer F.Fab) hide
+    (fp_text value Adafruit_Feather_socket_header_right_pth (at 10.16 21.82 90 unlocked) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 8.83 -10.22) (end 11.49 -10.22) (layer B.SilkS) (width 0.12))
@@ -1662,7 +1662,7 @@
     (pad EN thru_hole oval (at 10.16 -6.35 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 /FEATHER_EN))
     (pad VBAT thru_hole rect (at 10.16 -8.89 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-    (model :Flying_Camp_Design:FEATHER-HEADER-12POS-PTH.wrl
+    (model :Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth.wrl
       (offset (xyz 10.16 8.890000000000001 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1771,14 +1771,14 @@
     (pad 2 smd rect (at 0 -2.75 270) (size 1.25 2.5) (layers F.Cu F.Paste F.Mask)
       (net 11 /FEATHER_EN))
     (pad 1 smd rect (at -2.5 -2.75 270) (size 1.25 2.5) (layers F.Cu F.Paste F.Mask))
-    (model :Flying_Camp_Design:JS102011SAQN.STEP
+    (model :Flying_Camp_Design:JS102011SAQN.step
       (offset (xyz 0 0 0.2794))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module Flying_Camp_Design:MIKROBUS-HEADER-RIGHT-PTH (layer F.Cu) (tedit 5E401D97) (tstamp 5E3CBD98)
+  (module Flying_Camp_Design:mikroBUS_socket_header_right_pth (layer F.Cu) (tedit 5E401D97) (tstamp 5E3CBD98)
     (at 186.69 128.27 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
@@ -1786,7 +1786,7 @@
     (fp_text reference J4 (at 11.43 -11.43 -180 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIKROBUS-HEADER-RIGHT-PTH (at 0 0 90 unlocked) (layer F.Fab) hide
+    (fp_text value mikroBUS_socket_header_right_pth (at 0 0 90 unlocked) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user GND (at 8.89 8.89 90 unlocked) (layer F.SilkS)
@@ -1892,7 +1892,7 @@
     )
   )
 
-  (module Flying_Camp_Design:MIKROBUS-HEADER-LEFT-PTH (layer F.Cu) (tedit 5E401DA7) (tstamp 5E3DB886)
+  (module Flying_Camp_Design:mikroBUS_socket_header_left_pth (layer F.Cu) (tedit 5E401DA7) (tstamp 5E3DB886)
     (at 186.69 128.27 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
@@ -1900,7 +1900,7 @@
     (fp_text reference J3 (at -11.43 -11.43 -180 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIKROBUS-HEADER-LEFT-PTH (at 0 0 90 unlocked) (layer F.Fab) hide
+    (fp_text value mikroBUS_socket_header_left_pth (at 0 0 90 unlocked) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -12.7 12.7) (end 0 12.7) (layer B.SilkS) (width 0.12))
@@ -2005,7 +2005,7 @@
     )
   )
 
-  (module Flying_Camp_Design:FEATHER-MOUNTING-HOLES (layer F.Cu) (tedit 5E3EFCDC) (tstamp 5E445CD4)
+  (module Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes (layer F.Cu) (tedit 5E3EFCDC) (tstamp 5E445CD4)
     (at 171.45 100.33)
     (descr "Mounting holes for Adafruit Feather")
     (path /5E3B84FB)
@@ -2013,7 +2013,7 @@
     (fp_text reference MH1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FEATHER-MOUNTING-HOLES (at 0 0) (layer F.Fab) hide
+    (fp_text value Adafruit_Feather_socket_mounting_holes (at 0 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 0) (end 2.54 0) (layer Dwgs.User) (width 0.1))

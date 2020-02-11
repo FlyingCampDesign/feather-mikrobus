@@ -296,34 +296,34 @@ F 3 "" H 4000 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:MIKROBUS-HEADER-LEFT-PTH J3
+L Flying_Camp_Design:mikroBUS_socket_header_left_pth J3
 U 1 1 5E3C6EE3
 P 2500 5200
 F 0 "J3" H 2500 4500 50  0000 L CNN
-F 1 "MIKROBUS-HEADER-LEFT-PTH" H 2700 4500 50  0000 L CNN
-F 2 "Flying_Camp_Design:MIKROBUS-HEADER-LEFT-PTH" H 2500 4600 50  0001 C CNN
+F 1 "mikroBUS_socket_header_left_pth" H 2700 4500 50  0000 L CNN
+F 2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" H 2500 4600 50  0001 C CNN
 F 3 "https://www.mikroe.com/mikrobus" H 2500 5200 50  0001 C CNN
 	1    2500 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:MIKROBUS-HEADER-RIGHT-PTH J4
+L Flying_Camp_Design:mikroBUS_socket_header_right_pth J4
 U 1 1 5E3C7996
 P 3300 5200
 F 0 "J4" H 2500 4400 50  0000 L CNN
-F 1 "MIKROBUS-HEADER-RIGHT-PTH" H 2700 4400 50  0000 L CNN
-F 2 "Flying_Camp_Design:MIKROBUS-HEADER-RIGHT-PTH" H 3300 4600 50  0001 C CNN
+F 1 "mikroBUS_socket_header_right_pth" H 2700 4400 50  0000 L CNN
+F 2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" H 3300 4600 50  0001 C CNN
 F 3 "https://www.mikroe.com/mikrobus" H 3500 5200 50  0001 C CNN
 	1    3300 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:MIKROBUS-MODULE A2
+L Flying_Camp_Design:mikroBUS_socket_empty A2
 U 1 1 5E3C82C2
 P 2900 5300
 F 0 "A2" H 2500 4800 50  0000 L CNN
-F 1 "MIKROBUS-MODULE" H 2700 4800 50  0000 L CNN
-F 2 "Flying_Camp_Design:MIKROBUS-MODULE" H 2900 4700 50  0001 C CNN
+F 1 "mikroBUS_socket_empty" H 2700 4800 50  0000 L CNN
+F 2 "Flying_Camp_Design:mikroBUS_socket_empty" H 2900 4700 50  0001 C CNN
 F 3 "https://www.mikroe.com/mikrobus" H 2900 5300 50  0001 C CNN
 	1    2900 5300
 	1    0    0    -1  
@@ -351,88 +351,88 @@ F 3 "" H 4700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:FEATHER-MOUNTING-HOLES MH1
+L Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes MH1
 U 1 1 5E3B84FB
 P 5700 1800
 F 0 "MH1" H 5700 1900 50  0001 C CNN
-F 1 "FEATHER-MOUNTING-HOLES" H 5700 1600 50  0001 C CNN
-F 2 "Flying_Camp_Design:FEATHER-MOUNTING-HOLES" H 5700 1500 50  0001 C CNN
+F 1 "Adafruit_Feather_socket_mounting_holes" H 5700 1600 50  0001 C CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" H 5700 1500 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5700 1400 50  0001 C CNN
 	1    5700 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:FEATHER-MODULE A1
+L Flying_Camp_Design:Adafruit_Feather_socket_empty A1
 U 1 1 5E3B7CD9
 P 5300 2600
 F 0 "A1" H 4900 1700 50  0000 L CNN
-F 1 "FEATHER-MODULE" H 5100 1700 50  0000 L CNN
-F 2 "Flying_Camp_Design:FEATHER-MODULE" H 5300 1600 50  0001 C CNN
+F 1 "Adafruit_Feather_socket_empty" H 5100 1700 50  0000 L CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_socket_empty" H 5300 1600 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5300 1500 50  0001 C CNN
 	1    5300 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:FEATHER-HEADER-16POS-PTH J1
+L Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth J1
 U 1 1 5E3B727D
 P 4900 2600
 F 0 "J1" H 4900 1600 50  0000 L CNN
-F 1 "FEATHER-HEADER-16POS-PTH" H 5100 1600 50  0000 L CNN
-F 2 "Flying_Camp_Design:FEATHER-HEADER-16POS-PTH" H 4900 1700 50  0001 C CNN
+F 1 "Adafruit_Feather_socket_header_left_pth" H 5100 1600 50  0000 L CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" H 4900 1700 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 4900 1600 50  0001 C CNN
 	1    4900 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:FEATHER-HEADER-12POS-PTH J2
+L Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth J2
 U 1 1 5E3B67CD
 P 5700 2800
 F 0 "J2" H 4900 1900 50  0000 L CNN
-F 1 "FEATHER-HEADER-12POS-PTH" H 5100 1900 50  0000 L CNN
-F 2 "Flying_Camp_Design:FEATHER-HEADER-12POS-PTH" H 5700 2100 50  0001 C CNN
+F 1 "Adafruit_Feather_socket_header_right_pth" H 5100 1900 50  0000 L CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" H 5700 2100 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5700 2000 50  0001 C CNN
 	1    5700 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:FIDUCIAL FID1
+L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID1
 U 1 1 5E3F32FE
 P 4500 7200
 F 0 "FID1" H 4585 7246 50  0000 L CNN
-F 1 "FIDUCIAL" H 4585 7155 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4585 7155 50  0000 L CNN
 F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4500 7100 50  0001 C CNN
 F 3 "~" H 4500 7200 50  0001 C CNN
 	1    4500 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:FIDUCIAL FID2
+L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID2
 U 1 1 5E3F3A33
 P 4500 7400
 F 0 "FID2" H 4585 7446 50  0000 L CNN
-F 1 "FIDUCIAL" H 4585 7355 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4585 7355 50  0000 L CNN
 F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4500 7300 50  0001 C CNN
 F 3 "~" H 4500 7400 50  0001 C CNN
 	1    4500 7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:FIDUCIAL FID3
+L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID3
 U 1 1 5E3F3D03
 P 4500 7600
 F 0 "FID3" H 4585 7646 50  0000 L CNN
-F 1 "FIDUCIAL" H 4585 7555 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4585 7555 50  0000 L CNN
 F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4500 7500 50  0001 C CNN
 F 3 "~" H 4500 7600 50  0001 C CNN
 	1    4500 7600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:MIKROBUS_LOGO LOGO1
+L Flying_Camp_Design:mikroBUS_logo LOGO1
 U 1 1 5E3FB24F
 P 2900 4700
 F 0 "LOGO1" H 2900 4650 60  0001 C CNN
-F 1 "MIKROBUS_LOGO" H 2900 4750 60  0001 C CNN
+F 1 "mikroBUS_logo" H 2900 4750 60  0001 C CNN
 F 2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2900 4500 50  0001 C CNN
 F 3 "https://www.mikroe.com/mikrobus" H 2900 4700 50  0001 C CNN
 	1    2900 4700
@@ -441,12 +441,12 @@ $EndComp
 Text Notes 2800 5200 0    200  ~ 0
 1
 $Comp
-L Flying_Camp_Design:FEATHER-LOGO LOGO3
+L Flying_Camp_Design:Adafruit_Feather_logo LOGO3
 U 1 1 5E42FCDA
 P 5300 1500
 F 0 "LOGO3" H 5300 1500 60  0001 C CNN
-F 1 "FEATHER-LOGO" H 5300 1500 60  0001 C CNN
-F 2 "Flying_Camp_Design:FEATHER-LOGO" H 5300 1500 200 0001 C CNN
+F 1 "Adafruit_Feather_logo" H 5300 1500 60  0001 C CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_logo" H 5300 1500 200 0001 C CNN
 F 3 "~" H 5300 1500 200 0001 C CNN
 	1    5300 1500
 	1    0    0    -1  
