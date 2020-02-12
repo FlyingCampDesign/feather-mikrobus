@@ -1,3 +1,3 @@
 [submodule "lib/github.com/FlyingCampDesign/fcd-kicad-lib"]
-	path = lib/github.com/FlyingCampDesign/fcd-kicad-lib
+	path = hardware/feather-mikrobus-v1/lib/github.com/FlyingCampDesign/fcd-kicad-lib
 	url = https://github.com/FlyingCampDesign/fcd-kicad-lib.git
