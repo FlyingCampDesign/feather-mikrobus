@@ -4,7 +4,7 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Adafruit Feather to mikroBUS adapter board"
+Title "Adafruit Feather to mikroBUS adapter board V1"
 Date "2020-02-12"
 Rev "1"
 Comp "Flying Camp Design"
