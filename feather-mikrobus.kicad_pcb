@@ -9,7 +9,15 @@
     (nets 25)
   )
 
-  (page A4)
+  (page A)
+  (title_block
+    (title "Adafruit Feather to mikroBUS adapter board")
+    (date 2020-02-12)
+    (rev 1)
+    (company "Flying Camp Design")
+    (comment 1 https://FlyingCamp.Design)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
