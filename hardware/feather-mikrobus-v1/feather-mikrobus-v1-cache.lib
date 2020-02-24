@@ -32,13 +32,13 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_Adafruit_Feather_logo
+# Flying_Camp_Design_Adafruit_Feather_logo_13.87x6.33mm_silkscreen
 #
-DEF Flying_Camp_Design_Adafruit_Feather_logo LOGO 0 40 Y Y 1 F N
-F0 "LOGO" 0 0 60 H I C CNN
-F1 "Flying_Camp_Design_Adafruit_Feather_logo" 0 0 60 H I C CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_logo" 0 0 200 H I C CNN
-F3 "" 0 0 200 H I C CNN
+DEF Flying_Camp_Design_Adafruit_Feather_logo_13.87x6.33mm_silkscreen LOGO 0 40 Y Y 1 F N
+F0 "LOGO" 0 200 50 H I C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_logo_13.87x6.33mm_silkscreen" 0 -200 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_logo_13.87x6.33mm_silkscreen" 0 -300 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
 DRAW
 P 8 0 0 1 25 -7 27 -7 29 -6 31 -6 31 4 21 4 21 -8 25 -7 F
 P 9 0 0 1 -20 56 -21 57 -24 57 -27 56 -28 56 -29 55 -29 50 -20 50 -20 56 F
@@ -61,136 +61,81 @@ P 261 0 0 1 206 106 208 109 209 111 208 111 207 110 204 109 201 107 198 103 194 
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_Adafruit_Feather_socket_empty
-#
-DEF Flying_Camp_Design_Adafruit_Feather_socket_empty A 0 40 N Y 1 F N
-F0 "A" 0 1400 50 H V L CNN
-F1 "Flying_Camp_Design_Adafruit_Feather_socket_empty" 0 -900 50 H V L CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_socket_empty" 0 -1000 50 H I C CNN
-F3 "" 0 -1100 50 H I C CNN
-DRAW
-S -400 1300 400 -800 0 1 0 f
-ENDDRAW
-ENDDEF
-#
 # Flying_Camp_Design_Adafruit_Feather_socket_header_left_pth
 #
 DEF Flying_Camp_Design_Adafruit_Feather_socket_header_left_pth J 0 40 N Y 1 F N
-F0 "J" 0 900 50 H V L CNN
-F1 "Flying_Camp_Design_Adafruit_Feather_socket_header_left_pth" 0 -800 50 H V L CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" 0 -900 50 H I C CNN
-F3 "" 0 -1000 50 H I C CNN
+F0 "J" 0 1200 50 H V C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_socket_header_left_pth" 0 -1300 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" 0 -1400 50 H I C CNN
+F3 "" 0 -1500 50 H I C CNN
 DRAW
-X 3V3 3V3 -100 700 100 R 50 50 0 0 w
-X A0 A0 -100 400 100 R 50 50 0 0 P
-X A1 A1 -100 300 100 R 50 50 0 0 P
-X A2 A2 -100 200 100 R 50 50 0 0 P
-X A3 A3 -100 100 100 R 50 50 0 0 P
-X A4 A4 -100 0 100 R 50 50 0 0 P
-X A5 A5 -100 -100 100 R 50 50 0 0 P
-X AREF AREF -100 600 100 R 50 50 0 0 W
-X FREE FREE -100 -700 100 R 50 50 0 0 P
-X GND GND -100 500 100 R 50 50 0 0 W
-X MISO MISO -100 -400 100 R 50 50 0 0 P
-X MOSI MOSI -100 -300 100 R 50 50 0 0 P
-X RX RX -100 -600 100 R 50 50 0 0 P
-X SCK SCK -100 -200 100 R 50 50 0 0 P
-X TX TX -100 -500 100 R 50 50 0 0 P
-X ~RST ~RST -100 800 100 R 50 50 0 0 P
+S -400 1100 400 -1000 0 1 0 f
+X 3V3 3V3 -500 500 100 R 50 50 0 0 w
+X A0 A0 -500 200 100 R 50 50 0 0 P
+X A1 A1 -500 100 100 R 50 50 0 0 P
+X A2 A2 -500 0 100 R 50 50 0 0 P
+X A3 A3 -500 -100 100 R 50 50 0 0 P
+X A4 A4 -500 -200 100 R 50 50 0 0 P
+X A5 A5 -500 -300 100 R 50 50 0 0 P
+X AREF AREF -500 400 100 R 50 50 0 0 W
+X FREE FREE -500 -900 100 R 50 50 0 0 P
+X GND GND -500 300 100 R 50 50 0 0 W
+X MISO MISO -500 -600 100 R 50 50 0 0 P
+X MOSI MOSI -500 -500 100 R 50 50 0 0 P
+X RX RX -500 -800 100 R 50 50 0 0 P
+X SCK SCK -500 -400 100 R 50 50 0 0 P
+X TX TX -500 -700 100 R 50 50 0 0 P
+X ~RST ~RST -500 600 100 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
 # Flying_Camp_Design_Adafruit_Feather_socket_header_right_pth
 #
 DEF Flying_Camp_Design_Adafruit_Feather_socket_header_right_pth J 0 40 N Y 1 F N
-F0 "J" 0 700 50 H V L CNN
-F1 "Flying_Camp_Design_Adafruit_Feather_socket_header_right_pth" 0 -600 50 H V L CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" 0 -700 50 H I C CNN
-F3 "" 0 -800 50 H I C CNN
+F0 "J" 0 1200 50 H V L CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_socket_header_right_pth" 0 -1300 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" 0 -1400 50 H I C CNN
+F3 "" 0 -1500 50 H I C CNN
 DRAW
-X D2 D2 100 -300 100 L 50 50 0 0 P
-X D3 D3 100 -200 100 L 50 50 0 0 P
-X D4 D4 100 -100 100 L 50 50 0 0 P
-X D5 D5 100 0 100 L 50 50 0 0 P
-X D6 D6 100 100 100 L 50 50 0 0 P
-X D7 D7 100 200 100 L 50 50 0 0 P
-X D8 D8 100 300 100 L 50 50 0 0 P
-X EN EN 100 500 100 L 50 50 0 0 P
-X SCL SCL 100 -400 100 L 50 50 0 0 P
-X SDA SDA 100 -500 100 L 50 50 0 0 P
-X VBAT VBAT 100 600 100 L 50 50 0 0 W
-X VUSB VUSB 100 400 100 L 50 50 0 0 W
+S 400 1100 -400 -1000 0 1 0 f
+X D2 D2 500 -700 100 L 50 50 0 0 P
+X D3 D3 500 -600 100 L 50 50 0 0 P
+X D4 D4 500 -500 100 L 50 50 0 0 P
+X D5 D5 500 -400 100 L 50 50 0 0 P
+X D6 D6 500 -300 100 L 50 50 0 0 P
+X D7 D7 500 -200 100 L 50 50 0 0 P
+X D8 D8 500 -100 100 L 50 50 0 0 P
+X EN EN 500 100 100 L 50 50 0 0 P
+X SCL SCL 500 -800 100 L 50 50 0 0 P
+X SDA SDA 500 -900 100 L 50 50 0 0 P
+X VBAT VBAT 500 200 100 L 50 50 0 0 W
+X VUSB VUSB 500 0 100 L 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
 # Flying_Camp_Design_Adafruit_Feather_socket_mounting_holes
 #
 DEF Flying_Camp_Design_Adafruit_Feather_socket_mounting_holes MH 0 40 N Y 1 F N
-F0 "MH" 0 100 50 H I C CNN
-F1 "Flying_Camp_Design_Adafruit_Feather_socket_mounting_holes" 0 -200 50 H I C CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" 0 -300 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
+F0 "MH" 0 1200 50 H I C CNN
+F1 "Flying_Camp_Design_Adafruit_Feather_socket_mounting_holes" 0 -1100 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" 0 -1200 50 H I C CNN
+F3 "" 400 -400 50 H I C CNN
 DRAW
-X MH1 MH1 100 0 100 L 50 50 0 0 P
-X MH2 MH2 100 -100 100 L 50 50 0 0 P
+S 400 1100 -400 -1000 0 1 0 f
+X MH1 MH1 500 600 100 L 50 50 0 0 P
+X MH2 MH2 500 500 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_Fiducial_1mm_Mask2mm
+# Flying_Camp_Design_C_and_K_JS102011SAQN
 #
-DEF Flying_Camp_Design_Fiducial_1mm_Mask2mm FID 0 20 Y Y 1 F N
-F0 "FID" 0 200 50 H V C CNN
-F1 "Flying_Camp_Design_Fiducial_1mm_Mask2mm" 0 125 50 H I C CNN
-F2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" 0 -100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 0 50 0 1 20 f
-ENDDRAW
-ENDDEF
-#
-# Flying_Camp_Design_GND
-#
-DEF Flying_Camp_Design_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Flying_Camp_Design_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Flying_Camp_Design_GRM188R72A104KA35D
-#
-DEF Flying_Camp_Design_GRM188R72A104KA35D C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Flying_Camp_Design_GRM188R72A104KA35D" 10 -80 50 H I L CNN
-F2 "Flying_Camp_Design:C_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Murata Electronics" 100 -400 50 H I L CNN "Manufacturer"
-F5 "GRM188R72A104KA35D" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "490-3285-1-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355r7" 100 -800 50 H I L CNN "Vendor URL"
-F9 "0.1uF" 10 -80 50 H V L CNN "Capacitance"
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Flying_Camp_Design_JS102011SAQN
-#
-DEF Flying_Camp_Design_JS102011SAQN SW 0 0 Y N 1 F N
+DEF Flying_Camp_Design_C_and_K_JS102011SAQN SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Flying_Camp_Design_JS102011SAQN" 0 -200 50 H V C CNN
-F2 "Flying_Camp_Design:JS102011SAQN" 0 -300 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
-F4 "C&K" 0 -500 50 H I C CNN "Manufacturer"
-F5 "JS102011SAQN" 0 -600 50 H I C CNN "Manufacturer Part Number"
+F1 "Flying_Camp_Design_C_and_K_JS102011SAQN" 0 -400 50 H I C CNN
+F2 "Flying_Camp_Design:C_and_K_JS102011SAQN" 0 -500 50 H I C CNN
+F3 "" 0 -600 50 H I C CNN
+F4 "C&K" 0 -200 50 H V C CNN "Manufacturer"
+F5 "JS102011SAQN" 0 -300 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -700 50 H I C CNN "Vendor"
 F7 "401-1999-1-ND" 0 -800 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/z3mdnv" 0 -900 50 H I C CNN "Vendor URL"
@@ -205,15 +150,15 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_KMR421GULCLFS
+# Flying_Camp_Design_C_and_K_KMR421GULCLFS
 #
-DEF Flying_Camp_Design_KMR421GULCLFS SW 0 40 Y N 1 F N
+DEF Flying_Camp_Design_C_and_K_KMR421GULCLFS SW 0 40 Y N 1 F N
 F0 "SW" 0 300 50 H V C CNN
-F1 "Flying_Camp_Design_KMR421GULCLFS" 0 -300 50 H V C CNN
-F2 "Flying_Camp_Design:KMR421GULCLFS" 0 -400 50 H I C CNN
-F3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/KMR4/documents/datasheet.pdf" 0 -500 50 H I C CNN
-F4 "C&K" 0 -600 50 H I C CNN "Manufacturer"
-F5 "KMR421GULCLFS" 0 -700 50 H I C CNN "Manufacturer Part Number"
+F1 "Flying_Camp_Design_C_and_K_KMR421GULCLFS" 0 -500 50 H I C CNN
+F2 "Flying_Camp_Design:C_and_K_KMR421GULCLFS" 0 -600 50 H I C CNN
+F3 "" 0 -700 50 H I C CNN
+F4 "C&K" 0 -300 50 H V C CNN "Manufacturer"
+F5 "KMR421GULCLFS" 0 -400 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -800 50 H I C CNN "Vendor"
 F7 "CKN12152CT-ND" 0 -900 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/ztqvzm" 0 -1000 50 H I C CNN "Vendor URL"
@@ -245,19 +190,44 @@ X G 5 300 0 100 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_LTST-C191KGKT
+# Flying_Camp_Design_Fiducial_1mm_Mask2mm
 #
-DEF Flying_Camp_Design_LTST-C191KGKT D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Flying_Camp_Design_LTST-C191KGKT" 0 -100 50 H I C CNN
-F2 "Flying_Camp_Design:LED_0603_1608Metric" 0 -200 50 H I C CNN
+DEF Flying_Camp_Design_Fiducial_1mm_Mask2mm FID 0 20 Y Y 1 F N
+F0 "FID" 0 100 50 H V C CNN
+F1 "Flying_Camp_Design_Fiducial_1mm_Mask2mm" 0 -100 50 H I C CNN
+F2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" 0 -200 50 H I C CNN
 F3 "" 0 -300 50 H I C CNN
-F4 "Lite-On Inc." 0 -400 50 H I C CNN "Manufacturer"
-F5 "LTST-C191KGKT" 0 -500 50 H I C CNN "Manufacturer Part Number"
-F6 "Digi-Key" 0 -600 50 H I C CNN "Vendor"
-F7 "160-1446-1-ND" 0 -700 50 H I C CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z35jf3" 0 -800 50 H I C CNN "Vendor URL"
-F9 "Green" 0 -100 50 H V C CNN "Color"
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# Flying_Camp_Design_GND
+#
+DEF Flying_Camp_Design_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Flying_Camp_Design_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Flying_Camp_Design_Lite-On_LTST-C191KGKT
+#
+DEF Flying_Camp_Design_Lite-On_LTST-C191KGKT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Flying_Camp_Design_Lite-On_LTST-C191KGKT" 0 -300 50 H I C CNN
+F2 "Flying_Camp_Design:LED_0603_1608Metric" 0 -400 50 H I C CNN
+F3 "" 0 -500 50 H I C CNN
+F4 "Lite-On Inc." 0 -600 50 H I C CNN "Manufacturer"
+F5 "LTST-C191KGKT" 0 -700 50 H I C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -800 50 H I C CNN "Vendor"
+F7 "160-1446-1-ND" 0 -900 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z35jf3" 0 -1000 50 H I C CNN "Vendor URL"
+F9 "Green" 0 -150 50 H V C CNN "Color"
 DRAW
 P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
@@ -269,19 +239,40 @@ X A 2 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_RC0603JR-070RL
+# Flying_Camp_Design_Murata_GRM188R72A104KA35D
 #
-DEF Flying_Camp_Design_RC0603JR-070RL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Flying_Camp_Design_RC0603JR-070RL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-070RL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-0.0GRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z3b8n5" 100 -800 50 H I L CNN "Vendor URL"
-F9 "0R" 30 -40 50 H V L CNN "Resistance"
+DEF Flying_Camp_Design_Murata_GRM188R72A104KA35D C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Flying_Camp_Design_Murata_GRM188R72A104KA35D" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:C_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Murata Electronics" 100 -500 50 H I L CNN "Manufacturer"
+F5 "GRM188R72A104KA35D" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "490-3285-1-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355r7" 100 -900 50 H I L CNN "Vendor URL"
+F9 "0.1uF" 10 -80 50 H V L CNN "Capacitance"
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flying_Camp_Design_Yageo_RC0603JR-070RL
+#
+DEF Flying_Camp_Design_Yageo_RC0603JR-070RL R 0 10 N N 1 F N
+F0 "R" 50 25 50 H V L CNN
+F1 "Flying_Camp_Design_Yageo_RC0603JR-070RL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-070RL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-0.0GRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z3b8n5" 100 -900 50 H I L CNN "Vendor URL"
+F9 "0R" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -290,19 +281,19 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_RC0603JR-07100RL
+# Flying_Camp_Design_Yageo_RC0603JR-07100RL
 #
-DEF Flying_Camp_Design_RC0603JR-07100RL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Flying_Camp_Design_RC0603JR-07100RL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-07100RL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-100GRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z35529" 100 -800 50 H I L CNN "Vendor URL"
-F9 "100R" 30 -40 50 H V L CNN "Resistance"
+DEF Flying_Camp_Design_Yageo_RC0603JR-07100RL R 0 10 N N 1 F N
+F0 "R" 50 25 50 H V L CNN
+F1 "Flying_Camp_Design_Yageo_RC0603JR-07100RL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-07100RL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-100GRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z35529" 100 -900 50 H I L CNN "Vendor URL"
+F9 "100R" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -311,19 +302,19 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_RC0603JR-0710KL
+# Flying_Camp_Design_Yageo_RC0603JR-0710KL
 #
-DEF Flying_Camp_Design_RC0603JR-0710KL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Flying_Camp_Design_RC0603JR-0710KL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-0710KL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-10KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355tq" 100 -800 50 H I L CNN "Vendor URL"
-F9 "10k" 30 -40 50 H V L CNN "Resistance"
+DEF Flying_Camp_Design_Yageo_RC0603JR-0710KL R 0 10 N N 1 F N
+F0 "R" 50 25 50 H V L CNN
+F1 "Flying_Camp_Design_Yageo_RC0603JR-0710KL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-0710KL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-10KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355tq" 100 -900 50 H I L CNN "Vendor URL"
+F9 "10k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -332,19 +323,19 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_RC0603JR-071KL
+# Flying_Camp_Design_Yageo_RC0603JR-071KL
 #
-DEF Flying_Camp_Design_RC0603JR-071KL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Flying_Camp_Design_RC0603JR-071KL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-071KL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-1.0KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355tv" 100 -800 50 H I L CNN "Vendor URL"
-F9 "1k" 30 -40 50 H V L CNN "Resistance"
+DEF Flying_Camp_Design_Yageo_RC0603JR-071KL R 0 10 N N 1 F N
+F0 "R" 50 25 50 H V L CNN
+F1 "Flying_Camp_Design_Yageo_RC0603JR-071KL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-071KL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-1.0KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355tv" 100 -900 50 H I L CNN "Vendor URL"
+F9 "1k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -353,19 +344,19 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_RC0603JR-07330RL
+# Flying_Camp_Design_Yageo_RC0603JR-07330RL
 #
-DEF Flying_Camp_Design_RC0603JR-07330RL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Flying_Camp_Design_RC0603JR-07330RL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-07330RL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-330GRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355qt" 100 -800 50 H I L CNN "Vendor URL"
-F9 "330R" 30 -40 50 H V L CNN "Resistance"
+DEF Flying_Camp_Design_Yageo_RC0603JR-07330RL R 0 10 N N 1 F N
+F0 "R" 50 25 50 H V L CNN
+F1 "Flying_Camp_Design_Yageo_RC0603JR-07330RL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-07330RL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-330GRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355qt" 100 -900 50 H I L CNN "Vendor URL"
+F9 "330R" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -374,19 +365,19 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_RC0603JR-074K7L
+# Flying_Camp_Design_Yageo_RC0603JR-074K7L
 #
-DEF Flying_Camp_Design_RC0603JR-074K7L R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Flying_Camp_Design_RC0603JR-074K7L" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-074K7L" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-4.7KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z3bjcp" 100 -800 50 H I L CNN "Vendor URL"
-F9 "4.7k" 30 -40 50 H V L CNN "Resistance"
+DEF Flying_Camp_Design_Yageo_RC0603JR-074K7L R 0 10 N N 1 F N
+F0 "R" 50 25 50 H V L CNN
+F1 "Flying_Camp_Design_Yageo_RC0603JR-074K7L" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-074K7L" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-4.7KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z3bjcp" 100 -900 50 H I L CNN "Vendor URL"
+F9 "4.7k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -395,13 +386,13 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_mikroBUS_logo
+# Flying_Camp_Design_mikroBUS-Logo_11.9x4.1mm_SilkScreen
 #
-DEF Flying_Camp_Design_mikroBUS_logo LOGO 0 40 Y Y 1 F N
-F0 "LOGO" 0 -50 60 H I C CNN
-F1 "Flying_Camp_Design_mikroBUS_logo" 0 50 60 H I C CNN
-F2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 -200 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF Flying_Camp_Design_mikroBUS-Logo_11.9x4.1mm_SilkScreen LOGO 0 40 Y Y 1 F N
+F0 "LOGO" 0 200 50 H I C CNN
+F1 "Flying_Camp_Design_mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 -200 50 H I C CNN
+F2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 -300 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
 DRAW
 P 5 0 0 1 97 61 84 61 84 18 97 18 97 61 F
 P 5 0 0 1 97 80 84 80 84 70 97 70 97 80 F
@@ -416,53 +407,43 @@ P 155 0 0 1 -204 -80 -198 -76 -195 -73 -193 -70 -191 -62 -191 -58 -192 -54 -193 
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_mikroBUS_socket_empty
-#
-DEF Flying_Camp_Design_mikroBUS_socket_empty A 0 40 Y Y 1 F N
-F0 "A" 0 900 50 H V L CNN
-F1 "Flying_Camp_Design_mikroBUS_socket_empty" 0 -500 50 H V L CNN
-F2 "Flying_Camp_Design:mikroBUS_socket_empty" 0 -600 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -400 -400 400 800 0 1 0 f
-ENDDRAW
-ENDDEF
-#
 # Flying_Camp_Design_mikroBUS_socket_header_left_pth
 #
 DEF Flying_Camp_Design_mikroBUS_socket_header_left_pth J 0 40 N Y 1 F N
-F0 "J" 0 400 50 H V L CNN
-F1 "Flying_Camp_Design_mikroBUS_socket_header_left_pth" 0 -500 50 H V L CNN
-F2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" 0 -600 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F0 "J" 0 700 50 H V C CNN
+F1 "Flying_Camp_Design_mikroBUS_socket_header_left_pth" 0 -900 50 H I C CNN
+F2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" 0 -1000 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
 DRAW
-X +3.3V +3.3V -100 -300 100 R 50 50 0 0 W
-X AN AN -100 300 100 R 50 50 0 0 P
-X CS CS -100 100 100 R 50 50 0 0 P
-X GND GND -100 -400 100 R 50 50 0 0 W
-X MISO MISO -100 -100 100 R 50 50 0 0 P
-X MOSI MOSI -100 -200 100 R 50 50 0 0 P
-X RST RST -100 200 100 R 50 50 0 0 P
-X SCK SCK -100 0 100 R 50 50 0 0 P
+S -400 600 400 -600 0 1 0 f
+X +3.3V +3.3V -500 -400 100 R 50 50 0 0 W
+X AN AN -500 200 100 R 50 50 0 0 P
+X CS CS -500 0 100 R 50 50 0 0 P
+X GND GND -500 -500 100 R 50 50 0 0 W
+X MISO MISO -500 -200 100 R 50 50 0 0 P
+X MOSI MOSI -500 -300 100 R 50 50 0 0 P
+X RST RST -500 100 100 R 50 50 0 0 P
+X SCK SCK -500 -100 100 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
 # Flying_Camp_Design_mikroBUS_socket_header_right_pth
 #
 DEF Flying_Camp_Design_mikroBUS_socket_header_right_pth J 0 40 N Y 1 F N
-F0 "J" 0 400 50 H V L CNN
-F1 "Flying_Camp_Design_mikroBUS_socket_header_right_pth" 0 -500 50 H V L CNN
-F2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" 0 -600 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
+F0 "J" 0 700 50 H V C CNN
+F1 "Flying_Camp_Design_mikroBUS_socket_header_right_pth" 0 -900 50 H I C CNN
+F2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" 0 -1000 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
 DRAW
-X +5V +5V 100 -300 100 L 50 50 0 0 W
-X GND GND 100 -400 100 L 50 50 0 0 W
-X INT INT 100 200 100 L 50 50 0 0 P
-X PWM PWM 100 300 100 L 50 50 0 0 P
-X RX RX 100 100 100 L 50 50 0 0 P
-X SCL SCL 100 -100 100 L 50 50 0 0 P
-X SDA SDA 100 -200 100 L 50 50 0 0 P
-X TX TX 100 0 100 L 50 50 0 0 P
+S 400 -600 -400 600 0 1 0 f
+X +5V +5V 500 -400 100 L 50 50 0 0 W
+X GND GND 500 -500 100 L 50 50 0 0 W
+X INT INT 500 100 100 L 50 50 0 0 P
+X PWM PWM 500 200 100 L 50 50 0 0 P
+X RX RX 500 0 100 L 50 50 0 0 P
+X SCL SCL 500 -200 100 L 50 50 0 0 P
+X SDA SDA 500 -300 100 L 50 50 0 0 P
+X TX TX 500 -100 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
