@@ -1,4 +1,4 @@
-# feather-mikrobus-v1
+# Feather mikroBUS V1
 
 ![](images/feather-mikrobus-v1.png)
 
