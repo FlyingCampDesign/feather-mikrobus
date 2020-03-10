@@ -101,9 +101,9 @@ SCK
 Text Label 1300 4900 0    50   ~ 0
 CS
 Wire Wire Line
-	3300 5400 3300 5500
+	3900 5400 3900 5500
 Wire Wire Line
-	3200 5400 3300 5400
+	3200 5400 3900 5400
 Wire Wire Line
 	2200 4700 1200 4700
 Wire Wire Line
@@ -374,7 +374,6 @@ F 6 "Digi-Key" H 7600 2100 50  0001 L CNN "Vendor"
 F 7 "311-4.7KGRCT-ND" H 7600 2000 50  0001 L CNN "Vendor Part Number"
 F 8 "https://www.digikey.com/short/z3bjcp" H 7600 1900 50  0001 L CNN "Vendor URL"
 F 9 "4.7k" H 7600 2750 50  0000 L CNN "Resistance"
-F 10 "DNP" H 7600 2650 50  0000 L CNN "DNP"
 	1    7500 2800
 	1    0    0    -1  
 $EndComp
@@ -392,7 +391,6 @@ F 6 "Digi-Key" H 7200 2100 50  0001 L CNN "Vendor"
 F 7 "311-4.7KGRCT-ND" H 7200 2000 50  0001 L CNN "Vendor Part Number"
 F 8 "https://www.digikey.com/short/z3bjcp" H 7200 1900 50  0001 L CNN "Vendor URL"
 F 9 "4.7k" H 7175 2750 50  0000 L CNN "Resistance"
-F 10 "DNP" H 7175 2650 50  0000 L CNN "DNP"
 	1    7100 2800
 	1    0    0    -1  
 $EndComp
@@ -493,10 +491,15 @@ $Comp
 L Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth J1
 U 1 1 5E3B727D
 P 5400 2200
-F 0 "J1" H 5100 3400 50  0000 L CNN
+F 0 "J1" H 5000 1100 50  0000 L CNN
 F 1 "Adafruit_Feather_socket_header_left_pth" H 5400 900 50  0001 C CNN
 F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" H 5400 800 50  0001 C CNN
-F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5400 700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 5400 700 50  0001 C CNN
+F 4 "TE Connectivity" H 5200 1100 50  0000 L CNN "Manufacturer"
+F 5 "6-534237-4" H 5900 1100 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
+F 7 "A32549-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mb48" H 0   0   50  0001 C CNN "Vendor URL"
 	1    5400 2200
 	1    0    0    -1  
 $EndComp
@@ -504,10 +507,15 @@ $Comp
 L Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth J2
 U 1 1 5E3B67CD
 P 5400 2200
-F 0 "J2" H 5700 3400 50  0000 R CNN
+F 0 "J2" H 5000 1000 50  0000 L CNN
 F 1 "Adafruit_Feather_socket_header_right_pth" H 5400 900 50  0001 C CNN
 F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" H 5400 800 50  0001 C CNN
-F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5400 700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 5400 700 50  0001 C CNN
+F 4 "TE Connectivity" H 5200 1000 50  0000 L CNN "Manufacturer"
+F 5 "6-534237-0" H 5900 1000 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
+F 7 "A32911-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mbmc" H 0   0   50  0001 C CNN "Vendor URL"
 	1    5400 2200
 	1    0    0    -1  
 $EndComp
@@ -625,22 +633,27 @@ $EndComp
 $Comp
 L Flying_Camp_Design:GND #PWR012
 U 1 1 5E3D743E
-P 3300 5500
-F 0 "#PWR012" H 3300 5250 50  0001 C CNN
-F 1 "GND" H 3300 5350 50  0000 C CNN
-F 2 "" H 3300 5500 50  0001 C CNN
-F 3 "" H 3300 5500 50  0001 C CNN
-	1    3300 5500
+P 3900 5500
+F 0 "#PWR012" H 3900 5250 50  0001 C CNN
+F 1 "GND" H 3900 5350 50  0000 C CNN
+F 2 "" H 3900 5500 50  0001 C CNN
+F 3 "" H 3900 5500 50  0001 C CNN
+	1    3900 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:mikroBUS_socket_header_left_pth J3
 U 1 1 5E3C6EE3
 P 2700 4900
-F 0 "J3" H 2400 5600 50  0000 L CNN
+F 0 "J3" H 2300 4200 50  0000 L CNN
 F 1 "mikroBUS_socket_header_left_pth" H 2700 4000 50  0001 C CNN
 F 2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" H 2700 3900 50  0001 C CNN
-F 3 "https://www.mikroe.com/mikrobus" H 2700 3800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 2700 3800 50  0001 C CNN
+F 4 "TE Connectivity" H 2500 4200 50  0000 L CNN "Manufacturer"
+F 5 "5-534237-6" H 3200 4200 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
+F 7 "A32909-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mbmb" H 0   0   50  0001 C CNN "Vendor URL"
 	1    2700 4900
 	1    0    0    -1  
 $EndComp
@@ -648,10 +661,15 @@ $Comp
 L Flying_Camp_Design:mikroBUS_socket_header_right_pth J4
 U 1 1 5E3C7996
 P 2700 4900
-F 0 "J4" H 3000 5600 50  0000 R CNN
+F 0 "J4" H 2300 4100 50  0000 L CNN
 F 1 "mikroBUS_socket_header_right_pth" H 2700 4000 50  0001 C CNN
 F 2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" H 2700 3900 50  0001 C CNN
-F 3 "https://www.mikroe.com/mikrobus" H 2700 3800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 2700 3800 50  0001 C CNN
+F 4 "TE Connectivity" H 2500 4100 50  0000 L CNN "Manufacturer"
+F 5 "5-534237-6" H 3200 4100 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
+F 7 "A32909-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mbmb" H 0   0   50  0001 C CNN "Vendor URL"
 	1    2700 4900
 	1    0    0    -1  
 $EndComp
@@ -900,36 +918,36 @@ F 3 "" H 6100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Lite-On_LTST-C191KGKT D1
-U 1 1 5E653E2F
+L Flying_Camp_Design:Lite-On_LTST-C193KGKT-5A D1
+U 1 1 5E68E113
 P 5300 5600
-F 0 "D1" V 5350 5400 50  0000 L CNN
-F 1 "Lite-On_LTST-C191KGKT" H 5300 5300 50  0001 C CNN
+F 0 "D1" V 5346 5482 50  0000 R CNN
+F 1 "Lite-On_LTST-C193KGKT-5A" H 5300 5300 50  0001 C CNN
 F 2 "Flying_Camp_Design:LED_0603_1608Metric" H 5300 5200 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 5300 5100 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/LTST-C193KGKT-5A.PDF" H 5300 5100 50  0001 C CNN
 F 4 "Lite-On Inc." H 5300 5000 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KGKT" H 5300 4900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "LTST-C193KGKT-5A" H 5300 4900 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Digi-Key" H 5300 4800 50  0001 C CNN "Vendor"
-F 7 "160-1446-1-ND" H 5300 4700 50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z35jf3" H 5300 4600 50  0001 C CNN "Vendor URL"
-F 9 "Green" V 5250 5300 50  0000 L CNN "Color"
+F 7 "160-1828-1-ND" H 5300 4700 50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8m54d" H 5300 4600 50  0001 C CNN "Vendor URL"
+F 9 "Green" V 5255 5482 50  0000 R CNN "Color"
 	1    5300 5600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flying_Camp_Design:Lite-On_LTST-C191KGKT D2
-U 1 1 5E49AFFA
+L Flying_Camp_Design:Lite-On_LTST-C193KGKT-5A D2
+U 1 1 5E68EC6D
 P 6000 5600
-F 0 "D2" V 6050 5400 50  0000 L CNN
-F 1 "Lite-On_LTST-C191KGKT" H 6000 5300 50  0001 C CNN
+F 0 "D2" V 6046 5482 50  0000 R CNN
+F 1 "Lite-On_LTST-C193KGKT-5A" H 6000 5300 50  0001 C CNN
 F 2 "Flying_Camp_Design:LED_0603_1608Metric" H 6000 5200 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" H 6000 5100 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/LTST-C193KGKT-5A.PDF" H 6000 5100 50  0001 C CNN
 F 4 "Lite-On Inc." H 6000 5000 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KGKT" H 6000 4900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "LTST-C193KGKT-5A" H 6000 4900 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Digi-Key" H 6000 4800 50  0001 C CNN "Vendor"
-F 7 "160-1446-1-ND" H 6000 4700 50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z35jf3" H 6000 4600 50  0001 C CNN "Vendor URL"
-F 9 "Green" V 5950 5300 50  0000 L CNN "Color"
+F 7 "160-1828-1-ND" H 6000 4700 50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8m54d" H 6000 4600 50  0001 C CNN "Vendor URL"
+F 9 "Green" V 5955 5482 50  0000 R CNN "Color"
 	1    6000 5600
 	0    -1   -1   0   
 $EndComp
