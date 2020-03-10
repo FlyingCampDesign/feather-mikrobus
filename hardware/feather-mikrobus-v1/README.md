@@ -21,7 +21,7 @@
 | MISO             | MISO              |                                                              |
 | TX               | RX                |                                                              |
 | RX               | TX                |                                                              |
-| FREE             |                   | Conneted to BOOT0 button SW2 for [Adafruit Feather STM32F405 Express](https://www.adafruit.com/product/4382) |
+| FREE             |                   | Connected to BOOT0 button SW2 for [Adafruit Feather STM32F405 Express](https://www.adafruit.com/product/4382) |
 | SCL              | SCL               |                                                              |
 | SDA              | SDA               |                                                              |
 | D2               | INT               |                                                              |
