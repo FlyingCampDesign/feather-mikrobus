@@ -11,8 +11,8 @@
 
   (page A)
   (title_block
-    (title "Adafruit Feather to mikroBUS adapter board V1")
-    (date 2020-02-12)
+    (title "Feather mikroBUS V1")
+    (date 2020-03-10)
     (rev 1)
     (company "Flying Camp Design")
     (comment 1 https://FlyingCamp.Design)
