@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A 11000 8500
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Feather mikroBUS V1"
@@ -14,16 +14,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4150 7500 4150 7400
+	1950 7400 1950 7300
 Wire Wire Line
-	3850 7500 4150 7500
+	1650 7400 1950 7400
 Wire Wire Line
-	3850 7400 3850 7500
+	1650 7300 1650 7400
 Wire Wire Line
-	4650 7500 5450 7500
+	2450 7400 3250 7400
 Wire Wire Line
-	4650 7400 4650 7500
-Text Label 4750 7500 0    50   ~ 0
+	2450 7300 2450 7400
+Text Label 2550 7400 0    50   ~ 0
 FEATHER_AREF
 Wire Wire Line
 	5300 4600 5300 4500
@@ -31,11 +31,11 @@ Text Label 4800 5900 0    50   ~ 0
 ~USER_LED
 Wire Wire Line
 	5300 5400 5300 4800
-Text Notes 800  7350 0    50   ~ 0
-Adafruit STM32F405 Feather Express Notes:\n- No PWM output on D6-D8\n- DAC output available on A0-A1\n- D8 is connected to onboard LED
+Text Notes 800  1200 0    50   ~ 0
+Adafruit STM32F405 Feather Express Notes:\n- No PWM output on D6-D8\n- DAC output available on A0-A1\n- D8 is connected to onboard LED\n- STM32 BOOT0 connected to FREE pin
 Wire Wire Line
-	3250 7400 3250 7500
-Text Notes 3050 7100 0    50   ~ 0
+	1050 7300 1050 7400
+Text Notes 850  7000 0    50   ~ 0
 PWR_FLAG required on these nets to prevent DRC errors
 Wire Wire Line
 	5300 5800 5300 5900
@@ -257,7 +257,7 @@ Wire Wire Line
 	4800 1900 4800 3200
 Wire Wire Line
 	4900 1900 4800 1900
-Text Notes 5700 7100 0    50   ~ 0
+Text Notes 4100 7000 0    50   ~ 0
 Fiducials
 Wire Wire Line
 	9100 4800 9200 4800
@@ -479,44 +479,44 @@ $EndComp
 $Comp
 L Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes MH1
 U 1 1 5E3B84FB
-P 5400 2200
-F 0 "MH1" H 5400 2300 50  0001 C CNN
-F 1 "Adafruit_Feather_socket_mounting_holes" H 5400 2000 50  0001 C CNN
-F 2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" H 5400 1900 50  0001 C CNN
-F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5400 1800 50  0001 C CNN
-	1    5400 2200
+P 5600 1700
+F 0 "MH1" H 5600 1800 50  0001 C CNN
+F 1 "Adafruit_Feather_socket_mounting_holes" H 5600 1500 50  0001 C CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" H 5600 1400 50  0001 C CNN
+F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5600 1300 50  0001 C CNN
+	1    5600 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth J1
 U 1 1 5E3B727D
-P 5400 2200
-F 0 "J1" H 5000 1100 50  0000 L CNN
-F 1 "Adafruit_Feather_socket_header_left_pth" H 5400 900 50  0001 C CNN
-F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" H 5400 800 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 5400 700 50  0001 C CNN
-F 4 "TE Connectivity" H 5200 1100 50  0000 L CNN "Manufacturer"
-F 5 "6-534237-4" H 5900 1100 50  0000 L CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
-F 7 "A32549-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mb48" H 0   0   50  0001 C CNN "Vendor URL"
-	1    5400 2200
+P 5200 2300
+F 0 "J1" H 5000 1300 50  0000 L CNN
+F 1 "Adafruit_Feather_socket_header_left_pth" H 5200 1000 50  0001 C CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" H 5200 900 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 5200 800 50  0001 C CNN
+F 4 "TE Connectivity" H 5200 1300 50  0000 L CNN "Manufacturer"
+F 5 "6-534237-4" H 5900 1300 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H -200 100 50  0001 C CNN "Vendor"
+F 7 "A32549-ND" H -200 100 50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mb48" H -200 100 50  0001 C CNN "Vendor URL"
+	1    5200 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth J2
 U 1 1 5E3B67CD
-P 5400 2200
-F 0 "J2" H 5000 1000 50  0000 L CNN
-F 1 "Adafruit_Feather_socket_header_right_pth" H 5400 900 50  0001 C CNN
-F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" H 5400 800 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 5400 700 50  0001 C CNN
-F 4 "TE Connectivity" H 5200 1000 50  0000 L CNN "Manufacturer"
-F 5 "6-534237-0" H 5900 1000 50  0000 L CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
-F 7 "A32911-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mbmc" H 0   0   50  0001 C CNN "Vendor URL"
-	1    5400 2200
+P 5600 2500
+F 0 "J2" H 5000 1600 50  0000 L CNN
+F 1 "Adafruit_Feather_socket_header_right_pth" H 5600 1200 50  0001 C CNN
+F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" H 5600 1100 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 5600 1000 50  0001 C CNN
+F 4 "TE Connectivity" H 5200 1600 50  0000 L CNN "Manufacturer"
+F 5 "6-534237-0" H 5900 1600 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 200 300 50  0001 C CNN "Vendor"
+F 7 "A32911-ND" H 200 300 50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mbmc" H 200 300 50  0001 C CNN "Vendor URL"
+	1    5600 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,33 +644,33 @@ $EndComp
 $Comp
 L Flying_Camp_Design:mikroBUS_socket_header_left_pth J3
 U 1 1 5E3C6EE3
-P 2700 4900
-F 0 "J3" H 2300 4200 50  0000 L CNN
-F 1 "mikroBUS_socket_header_left_pth" H 2700 4000 50  0001 C CNN
-F 2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" H 2700 3900 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 2700 3800 50  0001 C CNN
-F 4 "TE Connectivity" H 2500 4200 50  0000 L CNN "Manufacturer"
-F 5 "5-534237-6" H 3200 4200 50  0000 L CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
-F 7 "A32909-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mbmb" H 0   0   50  0001 C CNN "Vendor URL"
-	1    2700 4900
+P 2500 5000
+F 0 "J3" H 2300 4400 50  0000 L CNN
+F 1 "mikroBUS_socket_header_left_pth" H 2500 4100 50  0001 C CNN
+F 2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" H 2500 4000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 2500 3900 50  0001 C CNN
+F 4 "TE Connectivity" H 2500 4400 50  0000 L CNN "Manufacturer"
+F 5 "5-534237-6" H 3200 4400 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H -200 100 50  0001 C CNN "Vendor"
+F 7 "A32909-ND" H -200 100 50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mbmb" H -200 100 50  0001 C CNN "Vendor URL"
+	1    2500 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:mikroBUS_socket_header_right_pth J4
 U 1 1 5E3C7996
-P 2700 4900
-F 0 "J4" H 2300 4100 50  0000 L CNN
-F 1 "mikroBUS_socket_header_right_pth" H 2700 4000 50  0001 C CNN
-F 2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" H 2700 3900 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 2700 3800 50  0001 C CNN
-F 4 "TE Connectivity" H 2500 4100 50  0000 L CNN "Manufacturer"
-F 5 "5-534237-6" H 3200 4100 50  0000 L CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 0   0   50  0001 C CNN "Vendor"
-F 7 "A32909-ND" H 0   0   50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mbmb" H 0   0   50  0001 C CNN "Vendor URL"
-	1    2700 4900
+P 2900 5000
+F 0 "J4" H 2300 4300 50  0000 L CNN
+F 1 "mikroBUS_socket_header_right_pth" H 2900 4100 50  0001 C CNN
+F 2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" H 2900 4000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English" H 2900 3900 50  0001 C CNN
+F 4 "TE Connectivity" H 2500 4300 50  0000 L CNN "Manufacturer"
+F 5 "5-534237-6" H 3200 4300 50  0000 L CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 200 100 50  0001 C CNN "Vendor"
+F 7 "A32909-ND" H 200 100 50  0001 C CNN "Vendor Part Number"
+F 8 "https://www.digikey.com/short/z8mbmb" H 200 100 50  0001 C CNN "Vendor URL"
+	1    2900 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -687,12 +687,12 @@ $EndComp
 $Comp
 L Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen LOGO1
 U 1 1 5E3FB24F
-P 2700 4500
-F 0 "LOGO1" H 2700 4450 60  0001 C CNN
-F 1 "mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4300 50  0001 C CNN
-F 2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4200 50  0001 C CNN
-F 3 "https://www.mikroe.com/mikrobus" H 2700 4100 50  0001 C CNN
-	1    2700 4500
+P 2700 4400
+F 0 "LOGO1" H 2700 4350 60  0001 C CNN
+F 1 "mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4200 50  0001 C CNN
+F 2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4100 50  0001 C CNN
+F 3 "https://www.mikroe.com/mikrobus" H 2700 4000 50  0001 C CNN
+	1    2700 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -821,89 +821,89 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5E4EC363
-P 4650 7400
-F 0 "#FLG0103" H 4650 7475 50  0001 C CNN
-F 1 "PWR_FLAG" H 4650 7550 50  0000 C CNN
-F 2 "" H 4650 7400 50  0001 C CNN
-F 3 "~" H 4650 7400 50  0001 C CNN
-	1    4650 7400
+P 2450 7300
+F 0 "#FLG0103" H 2450 7375 50  0001 C CNN
+F 1 "PWR_FLAG" H 2450 7450 50  0000 C CNN
+F 2 "" H 2450 7300 50  0001 C CNN
+F 3 "~" H 2450 7300 50  0001 C CNN
+	1    2450 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E4548A0
-P 3850 7400
-F 0 "#FLG0102" H 3850 7475 50  0001 C CNN
-F 1 "PWR_FLAG" H 3850 7550 50  0000 C CNN
-F 2 "" H 3850 7400 50  0001 C CNN
-F 3 "~" H 3850 7400 50  0001 C CNN
-	1    3850 7400
+P 1650 7300
+F 0 "#FLG0102" H 1650 7375 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 7450 50  0000 C CNN
+F 2 "" H 1650 7300 50  0001 C CNN
+F 3 "~" H 1650 7300 50  0001 C CNN
+	1    1650 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:+5V #PWR0102
 U 1 1 5E45585F
-P 4150 7400
-F 0 "#PWR0102" H 4150 7250 50  0001 C CNN
-F 1 "+5V" H 4150 7540 50  0000 C CNN
-F 2 "" H 4150 7400 50  0001 C CNN
-F 3 "" H 4150 7400 50  0001 C CNN
-	1    4150 7400
+P 1950 7300
+F 0 "#PWR0102" H 1950 7150 50  0001 C CNN
+F 1 "+5V" H 1950 7440 50  0000 C CNN
+F 2 "" H 1950 7300 50  0001 C CNN
+F 3 "" H 1950 7300 50  0001 C CNN
+	1    1950 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5E455284
-P 3250 7500
-F 0 "#PWR0101" H 3250 7250 50  0001 C CNN
-F 1 "GND" H 3250 7350 50  0000 C CNN
-F 2 "" H 3250 7500 50  0001 C CNN
-F 3 "" H 3250 7500 50  0001 C CNN
-	1    3250 7500
+P 1050 7400
+F 0 "#PWR0101" H 1050 7150 50  0001 C CNN
+F 1 "GND" H 1050 7250 50  0000 C CNN
+F 2 "" H 1050 7400 50  0001 C CNN
+F 3 "" H 1050 7400 50  0001 C CNN
+	1    1050 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E454119
-P 3250 7400
-F 0 "#FLG0101" H 3250 7475 50  0001 C CNN
-F 1 "PWR_FLAG" H 3250 7550 50  0000 C CNN
-F 2 "" H 3250 7400 50  0001 C CNN
-F 3 "~" H 3250 7400 50  0001 C CNN
-	1    3250 7400
+P 1050 7300
+F 0 "#FLG0101" H 1050 7375 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 7450 50  0000 C CNN
+F 2 "" H 1050 7300 50  0001 C CNN
+F 3 "~" H 1050 7300 50  0001 C CNN
+	1    1050 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID3
 U 1 1 5E3F3D03
-P 5800 7700
-F 0 "FID3" H 5900 7700 50  0000 L CNN
-F 1 "Fiducial_1mm_Mask2mm" H 5800 7600 50  0001 C CNN
-F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 5800 7500 50  0001 C CNN
-F 3 "~" H 5800 7400 50  0001 C CNN
-	1    5800 7700
+P 4200 7600
+F 0 "FID3" H 4300 7600 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4200 7500 50  0001 C CNN
+F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4200 7400 50  0001 C CNN
+F 3 "~" H 4200 7300 50  0001 C CNN
+	1    4200 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID2
 U 1 1 5E3F3A33
-P 5800 7500
-F 0 "FID2" H 5900 7500 50  0000 L CNN
-F 1 "Fiducial_1mm_Mask2mm" H 5800 7400 50  0001 C CNN
-F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 5800 7300 50  0001 C CNN
-F 3 "~" H 5800 7200 50  0001 C CNN
-	1    5800 7500
+P 4200 7400
+F 0 "FID2" H 4300 7400 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4200 7300 50  0001 C CNN
+F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4200 7200 50  0001 C CNN
+F 3 "~" H 4200 7100 50  0001 C CNN
+	1    4200 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID1
 U 1 1 5E3F32FE
-P 5800 7300
-F 0 "FID1" H 5900 7300 50  0000 L CNN
-F 1 "Fiducial_1mm_Mask2mm" H 5800 7200 50  0001 C CNN
-F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 5800 7100 50  0001 C CNN
-F 3 "~" H 5800 7000 50  0001 C CNN
-	1    5800 7300
+P 4200 7200
+F 0 "FID1" H 4300 7200 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4200 7100 50  0001 C CNN
+F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4200 7000 50  0001 C CNN
+F 3 "~" H 4200 6900 50  0001 C CNN
+	1    4200 7200
 	1    0    0    -1  
 $EndComp
 $Comp
