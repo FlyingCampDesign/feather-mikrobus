@@ -14,16 +14,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1950 7400 1950 7300
+	2950 7500 2950 7400
 Wire Wire Line
-	1650 7400 1950 7400
+	2650 7500 2950 7500
 Wire Wire Line
-	1650 7300 1650 7400
+	2650 7400 2650 7500
 Wire Wire Line
-	2450 7400 3250 7400
+	3450 7500 4250 7500
 Wire Wire Line
-	2450 7300 2450 7400
-Text Label 2550 7400 0    50   ~ 0
+	3450 7400 3450 7500
+Text Label 3550 7500 0    50   ~ 0
 FEATHER_AREF
 Wire Wire Line
 	5300 4600 5300 4500
@@ -34,8 +34,8 @@ Wire Wire Line
 Text Notes 800  1200 0    50   ~ 0
 Adafruit STM32F405 Feather Express Notes:\n- No PWM output on D6-D8\n- DAC output available on A0-A1\n- D8 is connected to onboard LED\n- STM32 BOOT0 connected to FREE pin
 Wire Wire Line
-	1050 7300 1050 7400
-Text Notes 850  7000 0    50   ~ 0
+	2050 7400 2050 7500
+Text Notes 1850 7100 0    50   ~ 0
 PWR_FLAG required on these nets to prevent DRC errors
 Wire Wire Line
 	5300 5800 5300 5900
@@ -257,7 +257,7 @@ Wire Wire Line
 	4800 1900 4800 3200
 Wire Wire Line
 	4900 1900 4800 1900
-Text Notes 4100 7000 0    50   ~ 0
+Text Notes 4600 7100 0    50   ~ 0
 Fiducials
 Wire Wire Line
 	9100 4800 9200 4800
@@ -821,89 +821,89 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5E4EC363
-P 2450 7300
-F 0 "#FLG0103" H 2450 7375 50  0001 C CNN
-F 1 "PWR_FLAG" H 2450 7450 50  0000 C CNN
-F 2 "" H 2450 7300 50  0001 C CNN
-F 3 "~" H 2450 7300 50  0001 C CNN
-	1    2450 7300
+P 3450 7400
+F 0 "#FLG0103" H 3450 7475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 7550 50  0000 C CNN
+F 2 "" H 3450 7400 50  0001 C CNN
+F 3 "~" H 3450 7400 50  0001 C CNN
+	1    3450 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E4548A0
-P 1650 7300
-F 0 "#FLG0102" H 1650 7375 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 7450 50  0000 C CNN
-F 2 "" H 1650 7300 50  0001 C CNN
-F 3 "~" H 1650 7300 50  0001 C CNN
-	1    1650 7300
+P 2650 7400
+F 0 "#FLG0102" H 2650 7475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2650 7550 50  0000 C CNN
+F 2 "" H 2650 7400 50  0001 C CNN
+F 3 "~" H 2650 7400 50  0001 C CNN
+	1    2650 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:+5V #PWR0102
 U 1 1 5E45585F
-P 1950 7300
-F 0 "#PWR0102" H 1950 7150 50  0001 C CNN
-F 1 "+5V" H 1950 7440 50  0000 C CNN
-F 2 "" H 1950 7300 50  0001 C CNN
-F 3 "" H 1950 7300 50  0001 C CNN
-	1    1950 7300
+P 2950 7400
+F 0 "#PWR0102" H 2950 7250 50  0001 C CNN
+F 1 "+5V" H 2950 7540 50  0000 C CNN
+F 2 "" H 2950 7400 50  0001 C CNN
+F 3 "" H 2950 7400 50  0001 C CNN
+	1    2950 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5E455284
-P 1050 7400
-F 0 "#PWR0101" H 1050 7150 50  0001 C CNN
-F 1 "GND" H 1050 7250 50  0000 C CNN
-F 2 "" H 1050 7400 50  0001 C CNN
-F 3 "" H 1050 7400 50  0001 C CNN
-	1    1050 7400
+P 2050 7500
+F 0 "#PWR0101" H 2050 7250 50  0001 C CNN
+F 1 "GND" H 2050 7350 50  0000 C CNN
+F 2 "" H 2050 7500 50  0001 C CNN
+F 3 "" H 2050 7500 50  0001 C CNN
+	1    2050 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E454119
-P 1050 7300
-F 0 "#FLG0101" H 1050 7375 50  0001 C CNN
-F 1 "PWR_FLAG" H 1050 7450 50  0000 C CNN
-F 2 "" H 1050 7300 50  0001 C CNN
-F 3 "~" H 1050 7300 50  0001 C CNN
-	1    1050 7300
+P 2050 7400
+F 0 "#FLG0101" H 2050 7475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2050 7550 50  0000 C CNN
+F 2 "" H 2050 7400 50  0001 C CNN
+F 3 "~" H 2050 7400 50  0001 C CNN
+	1    2050 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID3
 U 1 1 5E3F3D03
-P 4200 7600
-F 0 "FID3" H 4300 7600 50  0000 L CNN
-F 1 "Fiducial_1mm_Mask2mm" H 4200 7500 50  0001 C CNN
-F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4200 7400 50  0001 C CNN
-F 3 "~" H 4200 7300 50  0001 C CNN
-	1    4200 7600
+P 4700 7700
+F 0 "FID3" H 4800 7700 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4700 7600 50  0001 C CNN
+F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4700 7500 50  0001 C CNN
+F 3 "~" H 4700 7400 50  0001 C CNN
+	1    4700 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID2
 U 1 1 5E3F3A33
-P 4200 7400
-F 0 "FID2" H 4300 7400 50  0000 L CNN
-F 1 "Fiducial_1mm_Mask2mm" H 4200 7300 50  0001 C CNN
-F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4200 7200 50  0001 C CNN
-F 3 "~" H 4200 7100 50  0001 C CNN
-	1    4200 7400
+P 4700 7500
+F 0 "FID2" H 4800 7500 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4700 7400 50  0001 C CNN
+F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4700 7300 50  0001 C CNN
+F 3 "~" H 4700 7200 50  0001 C CNN
+	1    4700 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID1
 U 1 1 5E3F32FE
-P 4200 7200
-F 0 "FID1" H 4300 7200 50  0000 L CNN
-F 1 "Fiducial_1mm_Mask2mm" H 4200 7100 50  0001 C CNN
-F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4200 7000 50  0001 C CNN
-F 3 "~" H 4200 6900 50  0001 C CNN
-	1    4200 7200
+P 4700 7300
+F 0 "FID1" H 4800 7300 50  0000 L CNN
+F 1 "Fiducial_1mm_Mask2mm" H 4700 7200 50  0001 C CNN
+F 2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" H 4700 7100 50  0001 C CNN
+F 3 "~" H 4700 7000 50  0001 C CNN
+	1    4700 7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -952,12 +952,12 @@ F 9 "Green" V 5955 5482 50  0000 R CNN "Color"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flying_Camp_Design:Flying_Camp_Design_logo_30x30mm_silkscreen LOGO?
-U 1 1 5E6C1717
+L Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen LOGO2
+U 1 1 5E6E903B
 P 5800 7400
-F 0 "LOGO?" H 5800 6830 60  0001 C CNN
-F 1 "Flying_Camp_Design_logo_30x30mm_silkscreen" H 5800 7970 60  0001 C CNN
-F 2 "Flying_Camp_Design:Flying_Camp_Design_logo_30x30mm_silkscreen" H 5800 7400 50  0001 C CNN
+F 0 "LOGO2" H 5800 6830 60  0001 C CNN
+F 1 "Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 5800 7970 60  0001 C CNN
+F 2 "Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 5800 7400 50  0001 C CNN
 F 3 "~" H 5800 7400 50  0001 C CNN
 	1    5800 7400
 	1    0    0    -1  

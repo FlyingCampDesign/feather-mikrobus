@@ -1,4 +1,4 @@
-update=Tuesday, March 10, 2020 at 09:21:41 PM
+update=Wednesday, March 11, 2020 at 08:04:12 AM
 version=1
 last_client=kicad
 [general]
@@ -12,9 +12,19 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=lib/github.com/FlyingCampDesign/fcd-kicad-lib/worksheets/Flying_Camp_Design_Schematic.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=lib/github.com/FlyingCampDesign/fcd-kicad-lib/worksheets/Flying_Camp_Design_Layout.kicad_wks
 LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6002
@@ -50,7 +60,7 @@ CopperTextThickness=0.3048
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.0508
-CourtyardLineWidth=0.0508
+CourtyardLineWidth=0.05
 OthersLineWidth=0.1524
 OthersTextSizeV=1.016
 OthersTextSizeH=1.016
@@ -60,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0.1016
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -250,13 +260,3 @@ uViaDrill=0.254
 dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=lib/github.com/FlyingCampDesign/fcd-kicad-lib/Flying_Camp_Design.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

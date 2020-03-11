@@ -212,12 +212,12 @@ C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
-# Flying_Camp_Design_Flying_Camp_Design_logo_30x30mm_silkscreen
+# Flying_Camp_Design_Flying_Camp_Design_logo_7.35x11mm_silkscreen
 #
-DEF Flying_Camp_Design_Flying_Camp_Design_logo_30x30mm_silkscreen LOGO 0 40 Y Y 1 F N
+DEF Flying_Camp_Design_Flying_Camp_Design_logo_7.35x11mm_silkscreen LOGO 0 40 Y Y 1 F N
 F0 "LOGO" 0 -570 60 H I C CNN
-F1 "Flying_Camp_Design_Flying_Camp_Design_logo_30x30mm_silkscreen" 0 570 60 H I C CNN
-F2 "Flying_Camp_Design:Flying_Camp_Design_logo_30x30mm_silkscreen" 0 0 50 H I C CNN
+F1 "Flying_Camp_Design_Flying_Camp_Design_logo_7.35x11mm_silkscreen" 0 570 60 H I C CNN
+F2 "Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 5 0 0 1 80 -163 -80 -163 -80 -210 80 -210 80 -163 F
