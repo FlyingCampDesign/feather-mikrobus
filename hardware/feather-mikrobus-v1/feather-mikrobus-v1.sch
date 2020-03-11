@@ -951,4 +951,15 @@ F 9 "Green" V 5955 5482 50  0000 R CNN "Color"
 	1    6000 5600
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Flying_Camp_Design:Flying_Camp_Design_logo_30x30mm_silkscreen LOGO?
+U 1 1 5E6C1717
+P 5800 7400
+F 0 "LOGO?" H 5800 6830 60  0001 C CNN
+F 1 "Flying_Camp_Design_logo_30x30mm_silkscreen" H 5800 7970 60  0001 C CNN
+F 2 "Flying_Camp_Design:Flying_Camp_Design_logo_30x30mm_silkscreen" H 5800 7400 50  0001 C CNN
+F 3 "~" H 5800 7400 50  0001 C CNN
+	1    5800 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
