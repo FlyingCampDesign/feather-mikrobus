@@ -2,6 +2,14 @@
 
 ![](images/feather-mikrobus-v1.png)
 
+## Features
+
+* Power On/Off switch
+* +3.3V power indicator LED
+* User button
+* User LED
+* Bootloader enable (BOOT0) button for [Adafruit Feather STM32F405 Express](https://www.adafruit.com/product/4382)
+
 ## Pinout
 
 | Feather Pin Name | mikroBUS Pin Name | FeatherWing Function                                         |
