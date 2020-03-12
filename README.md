@@ -1,7 +1,7 @@
-View this project on [CADLAB.io](https://cadlab.io/project/22579). 
-
 # feather-mikrobus
 A simple [Adafruit Feather](https://www.adafruit.com/feather) to [mikroBUS](https://www.mikroe.com/mikrobus) socket adapter board.
+
+View this project on [CADLAB.io](https://cadlab.io/project/22579). 
 
 ## Hardware
 
