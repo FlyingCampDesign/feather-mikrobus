@@ -12,10 +12,12 @@
   (page A)
   (title_block
     (title "Feather mikroBUS V1")
-    (date 2020-03-11)
+    (date 2020-03-13)
     (rev 1)
     (company "Flying Camp Design")
     (comment 1 https://FlyingCamp.Design)
+    (comment 2 "© 2020 Flying Camp Design")
+    (comment 3 "Licensed under CERN-OHL-P version 2")
   )
 
   (layers
@@ -156,6 +158,15 @@
     (add_net /~MIKROBUS_RST)
     (add_net /~USER_LED)
     (add_net /~USER_SW)
+    (add_net "Net-(J1-PadA1)")
+    (add_net "Net-(J1-PadA2)")
+    (add_net "Net-(J1-PadA3)")
+    (add_net "Net-(J1-PadA4)")
+    (add_net "Net-(J1-PadA5)")
+    (add_net "Net-(J1-Pad~RST)")
+    (add_net "Net-(J2-PadD8)")
+    (add_net "Net-(J2-PadVBAT)")
+    (add_net "Net-(SW1-Pad1)")
   )
 
   (net_class Power ""

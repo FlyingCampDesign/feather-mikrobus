@@ -5,12 +5,12 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Feather mikroBUS V1"
-Date "2020-03-10"
+Date "2020-03-13"
 Rev "1"
 Comp "Flying Camp Design"
 Comment1 "https://FlyingCamp.Design"
-Comment2 ""
-Comment3 ""
+Comment2 "© 2020 Flying Camp Design"
+Comment3 "Licensed under CERN-OHL-P version 2"
 Comment4 ""
 $EndDescr
 Wire Wire Line
@@ -479,7 +479,7 @@ $Comp
 L Flying_Camp_Design:Adafruit_Feather_logo_13.87x6.33mm_silkscreen LOGO3
 U 1 1 5E42FCDA
 P 5400 1300
-F 0 "LOGO3" H 5400 1300 60  0001 C CNN
+F 0 "LOGO3" H 5400 1500 60  0000 C CNN
 F 1 "Adafruit_Feather_logo_13.87x6.33mm_silkscreen" H 5400 1100 50  0001 C CNN
 F 2 "Flying_Camp_Design:Adafruit_Feather_logo_13.87x6.33mm_silkscreen" H 5400 1000 50  0001 C CNN
 F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5400 900 50  0001 C CNN
@@ -622,7 +622,7 @@ $Comp
 L Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen LOGO1
 U 1 1 5E3FB24F
 P 2700 4400
-F 0 "LOGO1" H 2700 4350 60  0001 C CNN
+F 0 "LOGO1" H 2700 4600 60  0000 C CNN
 F 1 "mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4200 50  0001 C CNN
 F 2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4100 50  0001 C CNN
 F 3 "https://www.mikroe.com/mikrobus" H 2700 4000 50  0001 C CNN
@@ -809,17 +809,6 @@ F 9 "Green" V 5955 5482 50  0000 R CNN "Color"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen LOGO2
-U 1 1 5E6E903B
-P 5800 7400
-F 0 "LOGO2" H 5800 6830 60  0001 C CNN
-F 1 "Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 5800 7970 60  0001 C CNN
-F 2 "Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 5800 7400 50  0001 C CNN
-F 3 "~" H 5800 7400 50  0001 C CNN
-	1    5800 7400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Flying_Camp_Design:GND #PWR?
 U 1 1 5E69AE9F
 P 3500 2700
@@ -960,6 +949,17 @@ F 1 "GND" H 4805 3027 50  0000 C CNN
 F 2 "" H 4800 3200 50  0001 C CNN
 F 3 "" H 4800 3200 50  0001 C CNN
 	1    4800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen LOGO2
+U 1 1 5E6E903B
+P 1200 7300
+F 0 "LOGO2" H 1200 7900 60  0000 C CNN
+F 1 "Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 1200 7870 60  0001 C CNN
+F 2 "Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 1200 7300 50  0001 C CNN
+F 3 "~" H 1200 7300 50  0001 C CNN
+	1    1200 7300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

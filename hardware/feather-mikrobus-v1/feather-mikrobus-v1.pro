@@ -1,4 +1,4 @@
-update=Wednesday, March 11, 2020 at 01:55:24 PM
+update=Friday, March 13, 2020 at 10:15:14 PM
 version=1
 last_client=kicad
 [general]
@@ -12,19 +12,9 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=lib/github.com/FlyingCampDesign/fcd-kicad-lib/worksheets/Flying_Camp_Design_Schematic.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=lib/github.com/FlyingCampDesign/fcd-kicad-lib/worksheets/Flying_Camp_Design_Layout.kicad_wks
+PageLayoutDescrFile=lib/github.com/FlyingCampDesign/fcd-kicad-lib/worksheets/Flying_Camp_Design_OSHW.kicad_wks
 LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6002
@@ -260,3 +250,13 @@ uViaDrill=0.254
 dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=lib/github.com/FlyingCampDesign/fcd-kicad-lib/worksheets/Flying_Camp_Design_OSHW.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
