@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Flying_Camp_Design)(type Legacy)(uri ${KIPRJMOD}/lib/github.com/FlyingCampDesign/fcd-kicad-lib/Flying_Camp_Design.lib)(options "")(descr ""))
+  (lib (name "Flying_Camp_Design")(type "KiCad")(uri "${KIPRJMOD}/lib/github.com/FlyingCampDesign/fcd-kicad-lib/Flying_Camp_Design.kicad_sym")(options "")(descr ""))
 )
