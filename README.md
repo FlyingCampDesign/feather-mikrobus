@@ -5,7 +5,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/22579).
 
 ## Hardware
 
-Hardware source files for [KiCad](https://kicad.org) are available in the `hardware/` directory.  For details on features and pinouts, see the individual `README.md` for each hardware version.
+Hardware source files for [KiCad](https://kicad-pcb.org/) are available in the `hardware/` directory.  For details on features and pinouts, see the individual `README.md` for each hardware version.
 
 ### Hacking
 
