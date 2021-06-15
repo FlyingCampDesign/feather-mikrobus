@@ -476,17 +476,6 @@ F 8 "https://www.digikey.com/short/z8mbmc" H 200 300 50  0001 C CNN "Vendor URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L feather-mikrobus-v1-rescue:Adafruit_Feather_logo_13.87x6.33mm_silkscreen-Flying_Camp_Design LOGO3
-U 1 1 5E42FCDA
-P 5400 1300
-F 0 "LOGO3" H 5400 1500 60  0000 C CNN
-F 1 "Adafruit_Feather_logo_13.87x6.33mm_silkscreen" H 5400 1100 50  0001 C CNN
-F 2 "Flying_Camp_Design:Adafruit_Feather_logo_13.87x6.33mm_silkscreen" H 5400 1000 50  0001 C CNN
-F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5400 900 50  0001 C CNN
-	1    5400 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L feather-mikrobus-v1-rescue:C_and_K_KMR421GULCLFS-Flying_Camp_Design SW2
 U 1 1 5E4768B4
 P 2900 2600
@@ -616,17 +605,6 @@ F 6 "Digi-Key" H 200 100 50  0001 C CNN "Vendor"
 F 7 "A32909-ND" H 200 100 50  0001 C CNN "Vendor Part Number"
 F 8 "https://www.digikey.com/short/z8mbmb" H 200 100 50  0001 C CNN "Vendor URL"
 	1    2900 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L feather-mikrobus-v1-rescue:mikroBUS-Logo_11.9x4.1mm_SilkScreen-Flying_Camp_Design LOGO1
-U 1 1 5E3FB24F
-P 2700 4400
-F 0 "LOGO1" H 2700 4600 60  0000 C CNN
-F 1 "mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4200 50  0001 C CNN
-F 2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" H 2700 4100 50  0001 C CNN
-F 3 "https://www.mikroe.com/mikrobus" H 2700 4000 50  0001 C CNN
-	1    2700 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -949,17 +927,6 @@ F 1 "GND" H 4805 3027 50  0000 C CNN
 F 2 "" H 4800 3200 50  0001 C CNN
 F 3 "" H 4800 3200 50  0001 C CNN
 	1    4800 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L feather-mikrobus-v1-rescue:Flying_Camp_Design_logo_7.35x11mm_silkscreen-Flying_Camp_Design LOGO2
-U 1 1 5E6E903B
-P 1200 7300
-F 0 "LOGO2" H 1200 7900 60  0000 C CNN
-F 1 "Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 1200 7870 60  0001 C CNN
-F 2 "Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen" H 1200 7300 50  0001 C CNN
-F 3 "~" H 1200 7300 50  0001 C CNN
-	1    1200 7300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
