@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Flying_Camp_Design)(type Legacy)(uri ${KIPRJMOD}/lib/github.com/FlyingCampDesign/fcd-kicad-lib/Flying_Camp_Design.lib)(options "")(descr ""))
+  (lib (name feather-mikrobus-v1-rescue)(type Legacy)(uri ${KIPRJMOD}/feather-mikrobus-v1-rescue.lib)(options "")(descr ""))
 )

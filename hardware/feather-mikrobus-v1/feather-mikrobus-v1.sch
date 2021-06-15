@@ -323,7 +323,7 @@ USER_LED_R
 Text Label 6000 4900 3    50   ~ 0
 3V3_LED_R
 $Comp
-L Flying_Camp_Design:C_and_K_KMR421GULCLFS SW3
+L feather-mikrobus-v1-rescue:C_and_K_KMR421GULCLFS-Flying_Camp_Design SW3
 U 1 1 5E5A44D1
 P 8800 4800
 F 0 "SW3" H 8800 5100 50  0000 C CNN
@@ -339,7 +339,7 @@ F 8 "https://www.digikey.com/short/ztqvzm" H 8800 3800 50  0001 C CNN "Vendor UR
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-074K7L R4
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-074K7L-Flying_Camp_Design R4
 U 1 1 5E4ACFB9
 P 7500 2800
 F 0 "R4" H 7600 2850 50  0000 L CNN
@@ -356,7 +356,7 @@ F 9 "4.7k" H 7600 2750 50  0000 L CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-074K7L R3
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-074K7L-Flying_Camp_Design R3
 U 1 1 5E4AC677
 P 7100 2800
 F 0 "R3" H 7175 2850 50  0000 L CNN
@@ -384,7 +384,7 @@ F 3 "" H 6600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:C_and_K_JS102011SAQN SW1
+L feather-mikrobus-v1-rescue:C_and_K_JS102011SAQN-Flying_Camp_Design SW1
 U 1 1 5E49923D
 P 8000 2100
 F 0 "SW1" H 8000 2300 50  0000 C CNN
@@ -400,7 +400,7 @@ F 8 "https://www.digikey.com/short/z3mdnv" H 8000 1200 50  0001 C CNN "Vendor UR
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR08
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR08
 U 1 1 5E401342
 P 7500 2600
 F 0 "#PWR08" H 7500 2450 50  0001 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 7500 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR07
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR07
 U 1 1 5E4009E4
 P 7100 2600
 F 0 "#PWR07" H 7100 2450 50  0001 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 7100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR02
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR02
 U 1 1 5E3DD319
 P 4800 1300
 F 0 "#PWR02" H 4800 1150 50  0001 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 4800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes MH1
+L feather-mikrobus-v1-rescue:Adafruit_Feather_socket_mounting_holes-Flying_Camp_Design MH1
 U 1 1 5E3B84FB
 P 5600 1700
 F 0 "MH1" H 5600 1800 50  0001 C CNN
@@ -444,7 +444,7 @@ F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5600 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth J1
+L feather-mikrobus-v1-rescue:Adafruit_Feather_socket_header_left_pth-Flying_Camp_Design J1
 U 1 1 5E3B727D
 P 5200 2300
 F 0 "J1" H 5000 1300 50  0000 L CNN
@@ -460,7 +460,7 @@ F 8 "https://www.digikey.com/short/z8mb48" H -200 100 50  0001 C CNN "Vendor URL
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth J2
+L feather-mikrobus-v1-rescue:Adafruit_Feather_socket_header_right_pth-Flying_Camp_Design J2
 U 1 1 5E3B67CD
 P 5600 2500
 F 0 "J2" H 5000 1600 50  0000 L CNN
@@ -476,7 +476,7 @@ F 8 "https://www.digikey.com/short/z8mbmc" H 200 300 50  0001 C CNN "Vendor URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Adafruit_Feather_logo_13.87x6.33mm_silkscreen LOGO3
+L feather-mikrobus-v1-rescue:Adafruit_Feather_logo_13.87x6.33mm_silkscreen-Flying_Camp_Design LOGO3
 U 1 1 5E42FCDA
 P 5400 1300
 F 0 "LOGO3" H 5400 1500 60  0000 C CNN
@@ -487,7 +487,7 @@ F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5400 9
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:C_and_K_KMR421GULCLFS SW2
+L feather-mikrobus-v1-rescue:C_and_K_KMR421GULCLFS-Flying_Camp_Design SW2
 U 1 1 5E4768B4
 P 2900 2600
 F 0 "SW2" H 2900 2900 50  0000 C CNN
@@ -503,7 +503,7 @@ F 8 "https://www.digikey.com/short/ztqvzm" H 2900 1600 50  0001 C CNN "Vendor UR
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR0103
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR0103
 U 1 1 5E47840A
 P 2900 1800
 F 0 "#PWR0103" H 2900 1650 50  0001 C CNN
@@ -514,7 +514,7 @@ F 3 "" H 2900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-070RL R5
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-070RL-Flying_Camp_Design R5
 U 1 1 5E4BAA63
 P 3900 1600
 F 0 "R5" H 3950 1650 50  0000 L CNN
@@ -531,7 +531,7 @@ F 9 "0R" H 3950 1550 50  0000 L CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-071KL R1
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-071KL-Flying_Camp_Design R1
 U 1 1 5E4237BC
 P 2900 2000
 F 0 "R1" H 2975 2050 50  0000 L CNN
@@ -548,7 +548,7 @@ F 9 "1k" H 2975 1950 50  0000 L CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-07100RL R7
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-07100RL-Flying_Camp_Design R7
 U 1 1 5E42A109
 P 8700 2400
 F 0 "R7" H 8800 2450 50  0000 L CNN
@@ -576,7 +576,7 @@ F 3 "" H 3300 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR09
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR09
 U 1 1 5E3DE1B7
 P 2100 4600
 F 0 "#PWR09" H 2100 4450 50  0001 C CNN
@@ -587,7 +587,7 @@ F 3 "" H 2100 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:mikroBUS_socket_header_left_pth J3
+L feather-mikrobus-v1-rescue:mikroBUS_socket_header_left_pth-Flying_Camp_Design J3
 U 1 1 5E3C6EE3
 P 2500 5000
 F 0 "J3" H 2300 4400 50  0000 L CNN
@@ -603,7 +603,7 @@ F 8 "https://www.digikey.com/short/z8mbmb" H -200 100 50  0001 C CNN "Vendor URL
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:mikroBUS_socket_header_right_pth J4
+L feather-mikrobus-v1-rescue:mikroBUS_socket_header_right_pth-Flying_Camp_Design J4
 U 1 1 5E3C7996
 P 2900 5000
 F 0 "J4" H 2300 4300 50  0000 L CNN
@@ -619,7 +619,7 @@ F 8 "https://www.digikey.com/short/z8mbmb" H 200 100 50  0001 C CNN "Vendor URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen LOGO1
+L feather-mikrobus-v1-rescue:mikroBUS-Logo_11.9x4.1mm_SilkScreen-Flying_Camp_Design LOGO1
 U 1 1 5E3FB24F
 P 2700 4400
 F 0 "LOGO1" H 2700 4600 60  0000 C CNN
@@ -630,7 +630,7 @@ F 3 "https://www.mikroe.com/mikrobus" H 2700 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR0107
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR0107
 U 1 1 5E5B7B5B
 P 7900 4500
 F 0 "#PWR0107" H 7900 4350 50  0001 C CNN
@@ -641,7 +641,7 @@ F 3 "" H 7900 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-0710KL R6
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-0710KL-Flying_Camp_Design R6
 U 1 1 5E425364
 P 7900 4700
 F 0 "R6" H 7975 4750 50  0000 L CNN
@@ -658,7 +658,7 @@ F 9 "10k" H 7975 4650 50  0000 L CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Murata_GRM188R72A104KA35D C1
+L feather-mikrobus-v1-rescue:Murata_GRM188R72A104KA35D-Flying_Camp_Design C1
 U 1 1 5E427A0D
 P 7900 5100
 F 0 "C1" H 7975 5150 50  0000 L CNN
@@ -675,7 +675,7 @@ F 9 "0.1uF" H 7975 5050 50  0000 L CNN "Capacitance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-07330RL R8
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-07330RL-Flying_Camp_Design R8
 U 1 1 5E49B00C
 P 6000 4700
 F 0 "R8" H 6075 4750 50  0000 L CNN
@@ -692,7 +692,7 @@ F 9 "330R" H 6075 4650 50  0000 L CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR0110
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR0110
 U 1 1 5E49AFEA
 P 6000 4500
 F 0 "#PWR0110" H 6000 4350 50  0001 C CNN
@@ -703,7 +703,7 @@ F 3 "" H 6000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Yageo_RC0603JR-07330RL R2
+L feather-mikrobus-v1-rescue:Yageo_RC0603JR-07330RL-Flying_Camp_Design R2
 U 1 1 5E41F1AC
 P 5300 4700
 F 0 "R2" H 5375 4750 50  0000 L CNN
@@ -720,7 +720,7 @@ F 9 "330R" H 5375 4650 50  0000 L CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:+3.3V #PWR0109
+L feather-mikrobus-v1-rescue:+3.3V-Flying_Camp_Design #PWR0109
 U 1 1 5E6244BC
 P 5300 4500
 F 0 "#PWR0109" H 5300 4350 50  0001 C CNN
@@ -742,7 +742,7 @@ F 3 "" H 2950 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID3
+L feather-mikrobus-v1-rescue:Fiducial_1mm_Mask2mm-Flying_Camp_Design FID3
 U 1 1 5E3F3D03
 P 4700 7700
 F 0 "FID3" H 4800 7700 50  0000 L CNN
@@ -753,7 +753,7 @@ F 3 "~" H 4700 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID2
+L feather-mikrobus-v1-rescue:Fiducial_1mm_Mask2mm-Flying_Camp_Design FID2
 U 1 1 5E3F3A33
 P 4700 7500
 F 0 "FID2" H 4800 7500 50  0000 L CNN
@@ -764,7 +764,7 @@ F 3 "~" H 4700 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Fiducial_1mm_Mask2mm FID1
+L feather-mikrobus-v1-rescue:Fiducial_1mm_Mask2mm-Flying_Camp_Design FID1
 U 1 1 5E3F32FE
 P 4700 7300
 F 0 "FID1" H 4800 7300 50  0000 L CNN
@@ -775,7 +775,7 @@ F 3 "~" H 4700 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Lite-On_LTST-C193KGKT-5A D1
+L feather-mikrobus-v1-rescue:Lite-On_LTST-C193KGKT-5A-Flying_Camp_Design D1
 U 1 1 5E68E113
 P 5300 5600
 F 0 "D1" V 5346 5482 50  0000 R CNN
@@ -792,7 +792,7 @@ F 9 "Green" V 5255 5482 50  0000 R CNN "Color"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flying_Camp_Design:Lite-On_LTST-C193KGKT-5A D2
+L feather-mikrobus-v1-rescue:Lite-On_LTST-C193KGKT-5A-Flying_Camp_Design D2
 U 1 1 5E68EC6D
 P 6000 5600
 F 0 "D2" V 6046 5482 50  0000 R CNN
@@ -952,7 +952,7 @@ F 3 "" H 4800 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flying_Camp_Design:Flying_Camp_Design_logo_7.35x11mm_silkscreen LOGO2
+L feather-mikrobus-v1-rescue:Flying_Camp_Design_logo_7.35x11mm_silkscreen-Flying_Camp_Design LOGO2
 U 1 1 5E6E903B
 P 1200 7300
 F 0 "LOGO2" H 1200 7900 60  0000 C CNN
