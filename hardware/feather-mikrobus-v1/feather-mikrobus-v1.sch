@@ -429,47 +429,43 @@ F 3 "" H 4800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L feather-mikrobus-v1-rescue:Adafruit_Feather_socket_mounting_holes-Flying_Camp_Design MH1
+L Flying_Camp_Design:MODULE_ADAFRUIT_FEATHER MOD1
 U 1 1 5E3B84FB
-P 5600 1700
-F 0 "MH1" H 5600 1800 50  0001 C CNN
-F 1 "Adafruit_Feather_socket_mounting_holes-Flying_Camp_Design" H 5600 1400 50  0001 C CNN
-F 2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" H 5600 1300 50  0001 C CNN
-F 3 "" H 5600 1200 50  0001 C CNN
-	1    5600 1700
+P 5700 1600
+F 0 "MOD1" H 5700 1700 50  0001 C CNN
+F 1 "MODULE_ADAFRUIT_FEATHER" H 5700 1300 50  0001 C CNN
+F 2 "Flying_Camp_Design:MODULE_ADAFRUIT_FEATHER" H 5700 1200 50  0001 C CNN
+F 3 "https://learn.adafruit.com/adafruit-feather/feather-specification" H 5700 1100 50  0001 C CNN
+	1    5700 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L feather-mikrobus-v1-rescue:Adafruit_Feather_socket_header_left_pth-Flying_Camp_Design J1
+L Flying_Camp_Design:FCD-000047 J1
 U 1 1 5E3B727D
-P 5200 2300
-F 0 "J1" H 5000 1300 50  0000 L CNN
-F 1 "Adafruit_Feather_socket_header_left_pth-Flying_Camp_Design" H 5200 1100 50  0001 C CNN
-F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" H 5200 1000 50  0001 C CNN
-F 3 "" H 5200 900 50  0001 C CNN
-F 4 "TE Connectivity" H 5200 1300 50  0000 C CNN "Manufacturer"
-F 5 "6-534237-4" H 5200 1200 50  0000 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 5200 800 50  0001 C CNN "Vendor"
-F 7 "A32549-ND" H 5200 700 50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mb48" H 5200 600 50  0001 C CNN "Vendor URL"
-	1    5200 2300
+P 5100 2300
+F 0 "J1" H 4900 1300 50  0000 L CNN
+F 1 "FCD-000047" H 5100 1300 50  0000 C CNN
+F 2 "Flying_Camp_Design:TE_6-534237-4" H 5100 900 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/FCD-000047/" H 5100 800 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 5100 1100 50  0001 C CNN "Manufacturer"
+F 5 "6-534237-4" H 5100 1000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "6-534237-4" H 5100 1200 50  0000 C CNN "Part Number"
+	1    5100 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L feather-mikrobus-v1-rescue:Adafruit_Feather_socket_header_right_pth-Flying_Camp_Design J2
+L Flying_Camp_Design:FCD-000048 J2
 U 1 1 5E3B67CD
-P 5600 2500
-F 0 "J2" H 5000 1600 50  0000 L CNN
-F 1 "Adafruit_Feather_socket_header_right_pth-Flying_Camp_Design" H 5600 1500 50  0001 C CNN
-F 2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" H 5600 1400 50  0001 C CNN
-F 3 "" H 5600 1300 50  0001 C CNN
-F 4 "TE Connectivity" H 5600 1700 50  0000 C CNN "Manufacturer"
-F 5 "6-534237-0" H 5600 1600 50  0000 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 5600 1200 50  0001 C CNN "Vendor"
-F 7 "A32911-ND" H 5600 1100 50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mbmc" H 5600 1000 50  0001 C CNN "Vendor URL"
-	1    5600 2500
-	1    0    0    -1  
+P 5700 2500
+F 0 "J2" H 5100 1600 50  0000 L CNN
+F 1 "FCD-000048" H 5700 1700 50  0000 C CNN
+F 2 "Flying_Camp_Design:TE_6-534237-0" H 5700 1300 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/FCD-000048/" H 5700 1200 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 5700 1500 50  0001 C CNN "Manufacturer"
+F 5 "6-534237-0" H 5700 1400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "6-534237-0" H 5700 1600 50  0000 C CNN "Part Number"
+	1    5700 2500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:FCD-000049 SW2
@@ -570,36 +566,32 @@ F 3 "" H 2100 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L feather-mikrobus-v1-rescue:mikroBUS_socket_header_left_pth-Flying_Camp_Design J3
+L Flying_Camp_Design:FCD-000050 J3
 U 1 1 5E3C6EE3
-P 2500 5000
-F 0 "J3" H 2300 4400 50  0000 L CNN
-F 1 "mikroBUS_socket_header_left_pth-Flying_Camp_Design" H 2500 4200 50  0001 C CNN
-F 2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" H 2500 4100 50  0001 C CNN
-F 3 "" H 2500 4000 50  0001 C CNN
-F 4 "TE Connectivity" H 2500 4400 50  0000 C CNN "Manufacturer"
-F 5 "5-534237-6" H 2500 4300 50  0000 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 2500 3900 50  0001 C CNN "Vendor"
-F 7 "A32909-ND" H 2500 3800 50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mbmb" H 2500 3700 50  0001 C CNN "Vendor URL"
-	1    2500 5000
+P 2400 5000
+F 0 "J3" H 2200 4400 50  0000 L CNN
+F 1 "FCD-000050" H 2400 4400 50  0000 C CNN
+F 2 "Flying_Camp_Design:TE_5-534237-6" H 2400 4000 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/FCD-000050/" H 2400 3900 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 2400 4200 50  0001 C CNN "Manufacturer"
+F 5 "5-534237-6" H 2400 4100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "5-534237-6" H 2400 4300 50  0000 C CNN "Part Number"
+	1    2400 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L feather-mikrobus-v1-rescue:mikroBUS_socket_header_right_pth-Flying_Camp_Design J4
+L Flying_Camp_Design:FCD-000050 J4
 U 1 1 5E3C7996
-P 2900 5000
-F 0 "J4" H 2300 4300 50  0000 L CNN
-F 1 "mikroBUS_socket_header_right_pth-Flying_Camp_Design" H 2900 4200 50  0001 C CNN
-F 2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" H 2900 4100 50  0001 C CNN
-F 3 "" H 2900 4000 50  0001 C CNN
-F 4 "TE Connectivity" H 2900 4400 50  0000 C CNN "Manufacturer"
-F 5 "5-534237-6" H 2900 4300 50  0000 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 2900 3900 50  0001 C CNN "Vendor"
-F 7 "A32909-ND" H 2900 3800 50  0001 C CNN "Vendor Part Number"
-F 8 "https://www.digikey.com/short/z8mbmb" H 2900 3700 50  0001 C CNN "Vendor URL"
-	1    2900 5000
-	1    0    0    -1  
+P 3000 5000
+F 0 "J4" H 2400 4300 50  0000 L CNN
+F 1 "FCD-000050" H 3000 4400 50  0000 C CNN
+F 2 "Flying_Camp_Design:TE_5-534237-6" H 3000 4000 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/FCD-000050/" H 3000 3900 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 3000 4200 50  0001 C CNN "Manufacturer"
+F 5 "5-534237-6" H 3000 4100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "5-534237-6" H 3000 4300 50  0000 C CNN "Part Number"
+	1    3000 5000
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Flying_Camp_Design:+3V3 #PWR0107
