@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Flying_Camp_Design_+3V3
+#
+DEF Flying_Camp_Design_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Flying_Camp_Design_+3V3" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # Flying_Camp_Design_+5V
 #
 DEF Flying_Camp_Design_+5V #PWR 0 0 Y Y 1 F P
@@ -13,6 +28,77 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Flying_Camp_Design_FCD-000049
+#
+DEF Flying_Camp_Design_FCD-000049 SW 0 20 Y N 1 F N
+F0 "SW" 0 250 50 H V C CNN
+F1 "Flying_Camp_Design_FCD-000049" 0 -250 50 H V C CNN
+F2 "Flying_Camp_Design:CK_KMR4" 0 -650 50 H I C CNN
+F3 "" 0 -750 50 H I C CNN
+F4 "C&K" 0 -450 50 H I C CNN "Manufacturer"
+F5 "KMR421GULCLFS" 0 -550 50 H I C CNN "Manufacturer Part Number"
+F6 "KMR421GULCLFS" 0 -350 50 H V C CNN "Part Number"
+DRAW
+C 0 -60 7 0 0 10 N
+C 0 60 7 0 0 10 N
+P 2 0 0 6 -300 100 0 100 N
+P 2 0 0 10 -200 -175 -200 175 N
+P 2 0 0 6 -200 -100 0 -100 N
+P 2 0 0 10 -200 175 200 175 N
+P 2 0 0 6 0 -100 200 -100 N
+P 2 0 0 6 0 -60 0 -100 N
+P 2 0 0 6 0 60 0 100 N
+P 2 0 0 6 0 60 50 -50 N
+P 2 0 0 6 0 100 200 100 N
+P 2 0 0 6 90 -20 120 -20 N
+P 2 0 0 6 100 -40 140 -40 N
+P 2 0 0 6 120 -20 150 -20 N
+P 2 0 0 6 120 0 120 -20 N
+P 2 0 0 6 130 -60 110 -60 N
+P 2 0 0 10 200 -175 -200 -175 N
+P 2 0 0 6 200 0 120 0 N
+P 2 0 0 10 200 175 200 -175 N
+X 1 1 -300 100 100 R 40 40 0 0 P
+X 2 2 -300 -100 100 R 40 40 0 0 P
+X 3 3 300 -100 100 L 40 40 0 0 P
+X 4 4 300 100 100 L 40 40 0 0 P
+X G 5 300 0 100 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# Flying_Camp_Design_FCD-000051
+#
+DEF Flying_Camp_Design_FCD-000051 SW 0 0 N Y 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "Flying_Camp_Design_FCD-000051" 0 -200 50 H V C CNN
+F2 "Flying_Camp_Design:CK_JS102011SAQN" 0 -600 50 H I C CNN
+F3 "" 0 -700 50 H I C CNN
+F4 "C&K" 0 -400 50 H I C CNN "Manufacturer"
+F5 "JS102011SAQN" 0 -500 50 H I C CNN "Manufacturer Part Number"
+F6 "JS102011SAQN" 0 -300 50 H V C CNN "Part Number"
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X 1 1 200 100 100 L 50 50 1 1 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+X 3 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flying_Camp_Design_FIDUCIAL_GLOBAL_1X2MM
+#
+DEF Flying_Camp_Design_FIDUCIAL_GLOBAL_1X2MM FID 0 20 Y Y 1 F N
+F0 "FID" 0 100 50 H V C CNN
+F1 "Flying_Camp_Design_FIDUCIAL_GLOBAL_1X2MM" 0 -100 50 H I C CNN
+F2 "Flying_Camp_Design:FIDUCIAL_GLOBAL_1X2MM" 0 -200 50 H I C CNN
+F3 "" 0 -300 50 H I C CNN
+DRAW
+C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
@@ -39,21 +125,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# feather-mikrobus-v1-rescue_+3.3V-Flying_Camp_Design
-#
-DEF feather-mikrobus-v1-rescue_+3.3V-Flying_Camp_Design #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "feather-mikrobus-v1-rescue_+3.3V-Flying_Camp_Design" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -130,81 +201,6 @@ DRAW
 S 200 200 -200 -200 0 1 0 f
 X MH1 MH1 300 100 100 L 50 50 0 0 P
 X MH2 MH2 300 0 100 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# feather-mikrobus-v1-rescue_C_and_K_JS102011SAQN-Flying_Camp_Design
-#
-DEF feather-mikrobus-v1-rescue_C_and_K_JS102011SAQN-Flying_Camp_Design SW 0 0 Y N 1 F N
-F0 "SW" 0 170 50 H V C CNN
-F1 "feather-mikrobus-v1-rescue_C_and_K_JS102011SAQN-Flying_Camp_Design" 0 -400 50 H I C CNN
-F2 "Flying_Camp_Design:C_and_K_JS102011SAQN" 0 -500 50 H I C CNN
-F3 "" 0 -600 50 H I C CNN
-F4 "C&K" 0 -200 50 H V C CNN "Manufacturer"
-F5 "JS102011SAQN" 0 -300 50 H V C CNN "Manufacturer Part Number"
-F6 "Digi-Key" 0 -700 50 H I C CNN "Vendor"
-F7 "401-1999-1-ND" 0 -800 50 H I C CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z3mdnv" 0 -900 50 H I C CNN "Vendor URL"
-DRAW
-C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-C 80 100 20 0 1 0 N
-P 2 0 1 0 -60 10 65 90 N
-X A 1 200 100 100 L 50 50 1 1 P
-X B 2 -200 0 100 R 50 50 1 1 P
-X C 3 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# feather-mikrobus-v1-rescue_C_and_K_KMR421GULCLFS-Flying_Camp_Design
-#
-DEF feather-mikrobus-v1-rescue_C_and_K_KMR421GULCLFS-Flying_Camp_Design SW 0 40 Y N 1 F N
-F0 "SW" 0 300 50 H V C CNN
-F1 "feather-mikrobus-v1-rescue_C_and_K_KMR421GULCLFS-Flying_Camp_Design" 0 -500 50 H I C CNN
-F2 "Flying_Camp_Design:C_and_K_KMR421GULCLFS" 0 -600 50 H I C CNN
-F3 "" 0 -700 50 H I C CNN
-F4 "C&K" 0 -300 50 H V C CNN "Manufacturer"
-F5 "KMR421GULCLFS" 0 -400 50 H V C CNN "Manufacturer Part Number"
-F6 "Digi-Key" 0 -800 50 H I C CNN "Vendor"
-F7 "CKN12152CT-ND" 0 -900 50 H I C CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/ztqvzm" 0 -1000 50 H I C CNN "Vendor URL"
-DRAW
-C 0 -60 7 0 0 10 N
-C 0 60 7 0 0 10 N
-P 2 0 0 6 -300 100 0 100 N
-P 2 0 0 10 -200 -175 -200 175 N
-P 2 0 0 6 -200 -100 0 -100 N
-P 2 0 0 10 -200 175 200 175 N
-P 2 0 0 6 0 -100 200 -100 N
-P 2 0 0 6 0 -60 0 -100 N
-P 2 0 0 6 0 60 0 100 N
-P 2 0 0 6 0 60 50 -50 N
-P 2 0 0 6 0 100 200 100 N
-P 2 0 0 6 90 -20 120 -20 N
-P 2 0 0 6 100 -40 140 -40 N
-P 2 0 0 6 120 -20 150 -20 N
-P 2 0 0 6 120 0 120 -20 N
-P 2 0 0 6 130 -60 110 -60 N
-P 2 0 0 10 200 -175 -200 -175 N
-P 2 0 0 6 200 0 120 0 N
-P 2 0 0 10 200 175 200 -175 N
-X 1 1 -300 100 100 R 40 40 0 0 P
-X 2 2 -300 -100 100 R 40 40 0 0 P
-X 3 3 300 -100 100 L 40 40 0 0 P
-X 4 4 300 100 100 L 40 40 0 0 P
-X G 5 300 0 100 L 40 40 0 0 W
-ENDDRAW
-ENDDEF
-#
-# feather-mikrobus-v1-rescue_Fiducial_1mm_Mask2mm-Flying_Camp_Design
-#
-DEF feather-mikrobus-v1-rescue_Fiducial_1mm_Mask2mm-Flying_Camp_Design FID 0 20 Y Y 1 F N
-F0 "FID" 0 100 50 H V C CNN
-F1 "feather-mikrobus-v1-rescue_Fiducial_1mm_Mask2mm-Flying_Camp_Design" 0 -100 50 H I C CNN
-F2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" 0 -200 50 H I C CNN
-F3 "" 0 -300 50 H I C CNN
-DRAW
-C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
